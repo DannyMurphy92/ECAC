@@ -6,11 +6,12 @@ using System.Web.Mvc;
 
 namespace Website.Controllers
 {
-    public class HomeController : Controller
+    public class CommonController : Controller
     {
-        public ActionResult Index()
+        // GET: Common
+        public PartialViewResult Sidebar()
         {
-            return View();
+            return PartialView("_Sidebar");
         }
     }
 }

@@ -22,3 +22,30 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.main-header {
+    color:#66cdcc;
+    text-transform: uppercase;
+}
+
+.sidebar {
+    background-color: #ffd800;
+    padding-top:100px;
+    width: 350px;
+    height: 100vh;
+}
+
+
+.header-logo{
+    width:200px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.navbar{
+    background-color:#66cdcc;
+    max-height: 100px;
+}
+
+.nav-home{
+    padding-left:170px;
+}
