@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
 namespace Website.Infrastructure
 {
-    public static class Enum
+    
+    public enum TrainingCourse
     {
-        public enum TrainingCourse
-        {
-            Training1 = 1,
-            Training2 = 2
-        }
+        [Display(Name="Course 1")]
+        Training1 = 1,
+        [Display(Name = "Course 2")]
+        Training2 = 2
     }
+    
 }

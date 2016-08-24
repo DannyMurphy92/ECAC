@@ -1,7 +1,16 @@
-﻿
+﻿@using Website.Infrastructure;
 <div class="sidebar">
 
     <h2>Sidebar</h2>
-
+    <div>
+        <ul>
+            @foreach(TrainingCourse course in Enum.GetValues(typeof(TrainingCourse)))
+            {
+                <li>
+                    <a href="@Url.Action("Course", "Training", new {id=(int)course })">@Enum.GetName(typeof(TrainingCourse), course)</a>
+                </li>
+                }
+        </ul>
+    </div>
 </div>
 
