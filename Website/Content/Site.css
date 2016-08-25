@@ -1,12 +1,32 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿*{
+    font-family:'Open Sans', sans-serif;
+    font-size:15pt;
+}
+
+.container-main{
+    padding-top:60px;
+    margin-left: 50px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size:30pt;
+    font-weight:bold;
+}
+
+h2{
+    font-size:18pt;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    position:fixed;
+    float:left;
+    background-color: #EBEBEB;
+    top:100px;
+    left:350px;
+    right:0;
+    bottom:0;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -28,13 +48,17 @@ textarea {
     text-transform: uppercase;
 }
 
-.sidebar {
+.sidebar-main {
+    height: 100vh;
+    margin-top:75px;
+    padding-right:80px;    
+}
+.sidebar-wrapper{
+    width: 350px;
+    float:left;
     background-color: #DEDEDE;
     padding-top:100px;
-    width: 350px;
-    height: 100vh;
 }
-
 
 .header-logo{
     width:200px;
@@ -56,4 +80,28 @@ textarea {
 
 .nav-home{
     padding-left:170px;
+}
+
+.unstyled-list {
+    list-style: none;
+}
+
+
+
+.pad-l-0{
+    padding-left:0px;
+}
+
+
+.collapse-toggle{
+    cursor:pointer;
+}
+.collapse-toggle::before{
+    content: "\2212";
+    cursor:pointer;
+}
+
+.collapse-toggle.collapsed::before{
+    content: "\002b";
+    cursor:pointer;
 }

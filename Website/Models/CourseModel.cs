@@ -7,6 +7,7 @@ namespace Website.Models
 {
     public class CourseModel
     {
+        public string Title { get; set; }
         public string Intro { get; set; }
         public string Details { get; set; }
         public string HeaderImgLocation { get; set; }
