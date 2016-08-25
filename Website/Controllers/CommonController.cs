@@ -13,5 +13,14 @@ namespace Website.Controllers
         {
             return PartialView("_Sidebar");
         }
+        public PartialViewResult Header()
+        {
+            return PartialView("_Header");
+        }
+
+        public PartialViewResult Footer()
+        {
+            return PartialView("_Footer");
+        }
     }
 }
