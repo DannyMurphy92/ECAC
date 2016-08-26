@@ -3,14 +3,21 @@
 <div class="sidebar-main">
 
     <div class="pull-right">
-        <h3  data-toggle="collapse" data-target="#courselist" class="collapsed collapse-toggle">Training Courses</h3>
-        <ul class="unstyled-list collapse" id="courselist">
-            @foreach(TrainingCourse course in Enum.GetValues(typeof(TrainingCourse)))
-            {
-                <li>
-                    <a href="@Url.Action("Course", "Training", new {id=(int)course })">@EnumExtensions.GetDisplayName(course)</a>
-                </li>
-                }
+        <ul class="unstyled-list spaced-list">
+            <li>
+                <a href="@Url.Action("Index", "Home")"><i class="glyphicon glyphicon-home"></i>Home</a>
+            </li>
+            <li>
+                <span data-toggle="collapse" data-target="#courselist" class="collapsed collapse-toggle">Training Courses</span>
+                <ul class="unstyled-list collapse" id="courselist">
+                        @foreach (TrainingCourse course in Enum.GetValues(typeof(TrainingCourse)))
+                        {
+                            <li>
+                                <a href="@Url.Action("Course", "Training", new {id=(int)course })">@EnumExtensions.GetDisplayName(course)</a>
+                            </li>
+                        }
+                </ul>
+            </li>
         </ul>
     </div>
 </div>
