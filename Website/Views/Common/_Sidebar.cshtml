@@ -1,24 +1,51 @@
-﻿@using Website.Infrastructure;
+﻿@using System.Collections.Specialized
+@using Website.Infrastructure;
 @using Website.Extensions;
 <div class="sidebar-main">
 
     <div class="pull-right">
         <ul class="unstyled-list spaced-list">
             <li>
-                <a href="@Url.Action("Index", "Home")"><i class="glyphicon glyphicon-home"></i>Home</a>
+                <a href="@Url.Action("Index", "Home")">Home</a>
             </li>
             <li>
-                <span data-toggle="collapse" data-target="#courselist" class="collapsed collapse-toggle">Training Courses</span>
-                <ul class="unstyled-list collapse" id="courselist">
-                        @foreach (TrainingCourse course in Enum.GetValues(typeof(TrainingCourse)))
-                        {
-                            <li>
-                                <a href="@Url.Action("Course", "Training", new {id=(int)course })">@EnumExtensions.GetDisplayName(course)</a>
-                            </li>
-                        }
+                <span data-toggle="collapse" data-target="#refrigeList" class="collapsed collapse-toggle">Refrigeration Training </span>
+                <ul class="unstyled-list collapse collapseList pad-0" id="refrigeList">
+                    @foreach (Refrigeration course in Enum.GetValues(typeof (Refrigeration)))
+                    {
+                        <li>
+                            <a href="@Url.Action("Course", "Training", new {typeId = (int) TrainingType.Refrigeration, courseId = (int) course})">@EnumExtensions.GetDisplayName(course)</a>
+                        </li>
+                    }
                 </ul>
+            </li>
+
+            <li>
+                <span data-toggle="collapse" data-target="#hvacList" class="collapsed collapse-toggle">HVAC Training </span>
+                <ul class="unstyled-list collapse collapseList pad-0" id="hvacList">
+                    @foreach (HVAC course in Enum.GetValues(typeof (HVAC)))
+                    {
+                        <li>
+                            <a href="@Url.Action("Course", "Training", new {typeId = (int) TrainingType.HVAC, courseId = (int) course})">@EnumExtensions.GetDisplayName(course)</a>
+                        </li>
+                    }
+                </ul>
+            </li>
+
+            <li>
+                <span data-toggle="collapse" data-target="#fgasList" class="collapsed collapse-toggle">F Gas Training </span>
+                <ul class="unstyled-list collapse collapseList pad-0" id="fgasList">
+                    @foreach (FGas course in Enum.GetValues(typeof(FGas)))
+                    {
+                        <li>
+                            <a href="@Url.Action("Course", "Training", new {typeId = (int)TrainingType.FGas, courseId = (int)course})">@EnumExtensions.GetDisplayName(course)</a>
+                        </li>
+                    }
+                </ul>
+            </li>
+            <li>
+                <a href="@Url.Action("About", "Home")">About Us</a>
             </li>
         </ul>
     </div>
 </div>
-

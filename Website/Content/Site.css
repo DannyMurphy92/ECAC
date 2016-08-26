@@ -8,28 +8,33 @@ body {
   margin: 0;
   padding: 0;
   height: 100%; /* needed for container min-height */
+  overflow:auto;
 }
 
-.body-container, .container{
+.container{
     height:100%;
 
 }
 
 footer{
     position:relative;
-    margin-top: -150px; /* negative value of footer height */
-    height: 150px;
+    margin-top: -55px;
     clear:both;
-    padding-top:20px;
     padding-left:30px;
+    padding-bottom:20px;
+    background-color:#7693D6;
 }
-
+footer span, footer p, footer a {
+    font-size: 10pt;
+}
+a {
+    color: #FFCEA6;
+}
 .container-main{
     padding-top:60px;
     padding-left: 50px;
     padding-right:50px;
     padding-bottom:30px;
-    height:100%;
 }
 
 h1{
@@ -49,19 +54,18 @@ h2{
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    position:fixed;
-    float:left;
-    background-color: #EBEBEB;
+    position:relative;
+    background-color: #EEE;
     top:100px;
-    left:350px;
     right:0;
     bottom:0;
+    overflow:auto;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
-.dl-horizontal dt {
+dt {
     white-space: normal;
 }
 
@@ -73,8 +77,13 @@ textarea {
 }
 
 
-a, a:hover, a:visited, a:link{
+li a, li a:visited, li a:link{
     color:#333333;
+    text-decoration: none;
+}
+
+ul.collapseList li:hover {
+    background-color: #FFD47F;
     text-decoration: none;
 }
 
@@ -109,7 +118,7 @@ a, a:hover, a:visited, a:link{
 }
 
 .navbar{
-    background-color:#659ACD;
+    background-color:#7693D6;
     max-height: 100px;
 }
 
@@ -121,10 +130,8 @@ a, a:hover, a:visited, a:link{
     list-style: none;
 }
 
-
-
-.pad-l-0{
-    padding-left:0px;
+.pad-0{
+    padding: 0;
 }
 .pad-l-20{
     padding-left:20px;
@@ -138,28 +145,29 @@ a, a:hover, a:visited, a:link{
 .collapse-toggle{
     cursor:pointer;
 }
-.collapse-toggle::before{
+.collapse-toggle::after{
     content: "\2212";
     cursor:pointer;
-    padding-right:10px;
+    padding-left:10px;
 }
 
-.collapse-toggle.collapsed::before{
+.collapse-toggle.collapsed::after{
     content: "\002b";
     cursor:pointer;
 }
 
-#courselist{
+ul.collapseList{
     background-color:#EBEBEB;
     margin-left:20px
 }
 
-.glyphicon::before{
-    padding-right:10px;
+ul.collapseList li {
+    padding-left: 15px;
 }
 
 .footer-logo{
-    height:75px;
+    height:55px;
+    padding-top: 5px;
 }
 
 .table-container{

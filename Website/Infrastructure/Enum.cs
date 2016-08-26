@@ -6,13 +6,43 @@ using System.Web;
 
 namespace Website.Infrastructure
 {
-    
-    public enum TrainingCourse
+    public enum TrainingType
     {
-        [Display(Name="Course 1")]
-        Training1 = 1,
-        [Display(Name = "Course 2")]
-        Training2 = 2
+        Refrigeration = 1,
+        HVAC = 2,
+        FGas = 3
+    }
+    public enum Refrigeration
+    {
+        [Display(Name= "Introduction to Refrigeration")]
+        Intro = 1,
+        [Display(Name = "Advanced Refrigeration Maintenance and Fault Finding")]
+        Advanced = 2,
+        [Display(Name = "Ammonia Safety Workshop")]
+        Ammonia = 3,
+        [Display(Name = "Liquid Sverfeed Systems")]
+        Liquid = 4,
+
+    }
+
+    public enum HVAC
+    {
+        [Display(Name = "Introduction to  HVAC Systems")]
+        Intro = 1,
+        [Display(Name = "Advanced HVAC Systems")]
+        Advanced = 2,
+        [Display(Name = "Chilled Water Systems and Process Cooling")]
+        ChilledWater = 3,
+    }
+
+    public enum FGas
+    {
+        [Display(Name = "Overview of F Gas")]
+        Overview = 1,
+        [Display(Name = "F Gas Category 1 Training")]
+        Cat1 = 2,
+        [Display(Name = "F Gas Category 4 Training")]
+        Cat4 = 3,
     }
     
 }
