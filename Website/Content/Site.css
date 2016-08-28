@@ -98,7 +98,7 @@ body{
     padding: 15px;
 }
 
-footer span, footer p, footer a {
+#footer span, #footer p, #footer a {
     font-size: 10pt;
 }
 
@@ -111,11 +111,13 @@ footer span, footer p, footer a {
 
 
 /*#region ELEMENTS*/
-a {
+a, a:visited {
     color: #FFCEA6;
 }
 
-
+a:hover {
+    color: #F6903C;
+}
 h1{
     text-transform: uppercase;
     font-size:30pt;
