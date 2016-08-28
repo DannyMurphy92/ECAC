@@ -1,8 +1,9 @@
 ﻿@using System.Collections.Specialized
 @using Website.Infrastructure;
 @using Website.Extensions;
-<div class="sidebar-main">
 
+
+<div id="sidebar-main">
     <div class="pull-right">
         <ul class="unstyled-list spaced-list">
             <li>
@@ -35,14 +36,20 @@
             <li>
                 <span data-toggle="collapse" data-target="#fgasList" class="collapsed collapse-toggle">F Gas Training </span>
                 <ul class="unstyled-list collapse collapseList pad-0" id="fgasList">
-                    @foreach (FGas course in Enum.GetValues(typeof(FGas)))
+                    @foreach (FGas course in Enum.GetValues(typeof (FGas)))
                     {
                         <li>
-                            <a href="@Url.Action("Course", "Training", new {typeId = (int)TrainingType.FGas, courseId = (int)course})">@EnumExtensions.GetDisplayName(course)</a>
+                            <a href="@Url.Action("Course", "Training", new {typeId = (int) TrainingType.FGas, courseId = (int) course})">@EnumExtensions.GetDisplayName(course)</a>
                         </li>
                     }
                 </ul>
             </li>
+            @foreach (Service course in Enum.GetValues(typeof(Service)))
+            {
+                <li>
+                    <a href="@Url.Action("Service", "Training", new {id = (int)course})">@EnumExtensions.GetDisplayName(course)</a>
+                </li>
+            }
             <li>
                 <a href="@Url.Action("About", "Home")">About Us</a>
             </li>

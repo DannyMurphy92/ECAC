@@ -12,6 +12,11 @@ namespace Website.Controllers
             var model = GetCourseModel(typeId, courseId);
             return View(model);
         }
+
+        public ActionResult Service(int id)
+        {
+            return View();
+        }
         #endregion
 
         #region Private Methods

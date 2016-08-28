@@ -22,5 +22,10 @@ namespace Website.Controllers
         {
             return PartialView("_Footer");
         }
+
+        public PartialViewResult Navbar()
+        {
+            return PartialView("_Navbar");
+        }
     }
 }

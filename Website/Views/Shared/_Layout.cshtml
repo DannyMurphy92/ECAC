@@ -2,25 +2,30 @@
 <html>
 <head>
 @Html.Action("Header", "Common")
-
 </head>
 <body>
-    <div class="navbar navbar-fixed-top">
-            <div class="navbar-header">
-                <a href="@Url.Action("Index", "Home")" class="nav-home"><img src="~/Content/Images/header-logo.svg" class="header-logo" /></a>
-            </div>
-    </div>
-    <div class="sidebar-wrapper">
-        @Html.Action("Sidebar", "Common")
-    </div>
-    <div class="body-content body-wrapper">
+
+<div id="wrapper">
+    
+    @Html.Action("Navbar", "Common")
+    <div class="content">
+        <div id="sidebar">
+            @Html.Action("Sidebar", "Common")
+        </div>
+        <div id="main">
             @RenderBody()
-        <hr />
+        </div>
+    </div>
+    <div class="push"></div>
+</div>
+<div id="footer">
+    <div id="footer-content">
         @Html.Action("Footer", "Common")
     </div>
+</div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
 </body>
 </html>

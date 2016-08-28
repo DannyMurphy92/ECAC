@@ -44,5 +44,14 @@ namespace Website.Infrastructure
         [Display(Name = "F Gas Category 4 Training")]
         Cat4 = 3,
     }
-    
+
+    public enum Service
+    {
+        [Display(Name = "Bespoke Training Design")]
+        Bespoke = 1,
+        [Display(Name = "Employability Training Services")]
+        Employability = 2,
+        [Display(Name = "Technical Translation Services")]
+        Technical = 2
+    }
 }
