@@ -1,7 +1,7 @@
-﻿@model Website.Models.CourseModel
-<div class="container">
-    <p>@Model.Intro</p>
+﻿@model Website.Models.TrainingModel
 
-    <p>@Model.Details</p>
-</div>
+@Html.Raw(Model.Title)
+
+@Html.Raw(Model.Content)
+
 

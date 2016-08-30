@@ -5,11 +5,9 @@ using System.Web;
 
 namespace Website.Models
 {
-    public class CourseModel
+    public class TrainingModel
     {
         public string Title { get; set; }
-        public string Intro { get; set; }
-        public string Details { get; set; }
-        public string HeaderImgLocation { get; set; }
+        public string Content { get; set; }
     }
 }

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BESPOKE_SERVICE_CONTENT" xml:space="preserve">
+    <value>&lt;p&gt;Every refrigeration or air-conditioning system is different. Here at ECAC we understand that an off the shelf course will not suit everybody’s requirements and therefore we will design and deliver training to suit your unique requirements.&lt;/p&gt;
+&lt;/br&gt;
+&lt;p&gt;
+We will visit your site, discuss your requirements and examine your refrigeration or Air-conditioning equipment. We will then produce a first draft training outline which will be issued to you for approval. When the content has been agreed we will produce all the course materials specifically designed to suit your requirements.
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;p&gt;
+We are also aware that it is sometimes difficult to arrange training due to shift patterns. We at ECAC will work around your staff availability, be that during the day, in the evening or at weekends
+&lt;/p&gt;</value>
+  </data>
+  <data name="BESPOKE_SERVICE_TITLE" xml:space="preserve">
+    <value>&lt;h1&gt;Bespoke Course Design and Delivery&lt;/h1&gt;</value>
+  </data>
+  <data name="EMPLOYABILITY_SERVICES_CONTENT" xml:space="preserve">
+    <value>&lt;p&gt;ECAC has a reputation for innovation and responsiveness to the requirements of Industry and the employees of Industry. We are aware that the days of a ‘job for life’ are a thing of the past and whether it be through choice or circumstances many people will change their job or employer many times over their lifetime.
+&lt;/p&gt;
+&lt;p&gt;
+We have developed a range of services designed to meet the requirements of our clients who are dealing with a career change or are in the process of helping their employees to prepare for redundancy or a change of employer.
+&lt;/p&gt;
+&lt;h2&gt;Career Guidance&lt;/h2&gt;
+&lt;p&gt;
+Our Career Guidance expert, Dr. Brian Staines, has over 30 years’ experience in Career guidance and employability. Brian works with both groups and individuals in order to identify future career opportunities and options based on both the individuals past experience and qualifications and their ambitions for the future.
+&lt;/p&gt;
+&lt;p&gt;
+Typically Brian works with groups from companies currently dealing with redundancies to help their employees identify and prepare for opportunities in the future. The typical career guidance seminar will commence with a group session where the relevant staff members will participate in an employability workshop both to identify current skills and future ones that they would wish to develop. On completion of this Brian will work with individuals discussing and advising on the specifics of their situation and drawing up an action plan for future activities.
+&lt;/p&gt;
+&lt;h2&gt;Career Guidance&lt;/h2&gt;
+&lt;p&gt;
+In conjunction with our Language and Communication specialist, Mr Robert Howe MA, and Dr Staines, each participant will be given the opportunity to develop a Curriculum Vitae to current international standards. The clients will be helped to develop a C.V. which emphasises their skills and experience as well as their employability. Rob will concentrate on the use of language and syntax While Brian will concentrate on developing the specific information to be used in the C.V.
+&lt;/p&gt;
+&lt;h3&gt;C.V. (German)
+&lt;/h3&gt;
+&lt;p&gt;
+As part of our translation services we can also provide you with a C.V. in German, however, unlike a direct translation service we will develop your C.V. specifically for the German jobs market.
+&lt;/p&gt;</value>
+  </data>
+  <data name="EMPLOYABILITY_SERVICES_TITLE" xml:space="preserve">
+    <value>&lt;h1&gt;Employability Services&lt;/h1&gt;</value>
+  </data>
+  <data name="FGAS_OVERVIEW_CONTENT" xml:space="preserve">
+    <value>&lt;p&gt;ECAC offers the full range of City &amp; Guilds 2079 Fgas training and certification. We are the main provider of these qualifications in the Irish market and have been offering City &amp; Guilds qualifications for over 10 years.  
+&lt;/p&gt;
+&lt;h2&gt;There are four levels in the qualification:&lt;/h2&gt;
+&lt;h3&gt;2079 100 (Cat 1)&lt;/h3&gt;
+&lt;p&gt;Successful candidates will be qualified to undertake leak checking, recovery, installation, service and maintenance of equipment.
+&lt;/p&gt;
+&lt;h3&gt;2079 200 (Cat 2)&lt;/h3&gt;
+&lt;p&gt;Successful candidates will be qualified to undertake installation, service and maintenance of  equipment with a charge of less than 5 Tons equivalent CO2 and leakage checking.
+&lt;/p&gt;
+&lt;h3&gt;2079 300 (Cat 3)&lt;/h3&gt;
+&lt;p&gt;Successful candidates will be qualified to undertake the recovery of refrigerants on small systems.
+&lt;/p&gt;
+&lt;h3&gt;2079 400 (Cat 4)&lt;/h3&gt;
+&lt;p&gt;Successful candidates will be qualified to undertake leakage checking.
+&lt;/p&gt;
+
+&lt;p&gt;For each qualification, candidates will be required to successfully complete both of the following assessments:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One Practical Assessment
+&lt;/li&gt;
+&lt;li&gt;One Theoretical Assessment
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Grading and Marking&lt;/h3&gt;
+&lt;p&gt;Grading of assessments for these units and qualifications is pass or fail. The theoretical, multiple choice assessment is externally marked by EVOLVE. The practical assessment is internally marked and externally verified.
+&lt;/P&gt;
+
+&lt;h3&gt;Training&lt;/h3&gt;
+&lt;p&gt;Training days will cover all aspects of the F gas assessment with a strong emphasis on the requirements of the EVOLVE online theory assessment.
+&lt;/P&gt;
+
+&lt;h3&gt;All Candidates are required to bring the following Items for the  Assessment&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Copy of photo I.D. (passport, license etc.)
+&lt;/li&gt;
+&lt;li&gt; Full P.P.E. (Including steel capped boots, fire retardant overalls etc.)
+&lt;/li&gt;
+&lt;li&gt;Candidates may use their own equipment and tools for the assessment subject to safety requirements, alternately, equipment will be provided.
+&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="FGAS_OVERVIEW_TITLE" xml:space="preserve">
+    <value>&lt;h1&gt;Cityy &amp; Guilds 2079 (F Gas) Qualifications&lt;/h1&gt;</value>
+  </data>
+</root>

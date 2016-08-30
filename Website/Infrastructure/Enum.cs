@@ -52,6 +52,6 @@ namespace Website.Infrastructure
         [Display(Name = "Employability Training Services")]
         Employability = 2,
         [Display(Name = "Technical Translation Services")]
-        Technical = 2
+        Technical = 3
     }
 }

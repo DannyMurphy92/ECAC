@@ -34,7 +34,9 @@ body{
 #main {
     margin-left: 350px;
     padding-left: 50px;
+    padding-right: 50px;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 
@@ -125,12 +127,16 @@ h1{
     color:#66cdcc;
     padding-bottom: 30px;
 }
-
 h2{
     font-size:18pt;
     font-weight:bold;
     color:#66cdcc;
     padding-bottom:15px;
+}
+h3 {
+    color: #7693D6;
+    font-weight:bold;
+    font-size:15pt;
 }
 
 
