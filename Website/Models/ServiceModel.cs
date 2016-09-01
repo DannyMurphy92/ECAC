@@ -5,8 +5,9 @@ using System.Web;
 
 namespace Website.Models
 {
-    public class TrainingModel
+    public class ServiceModel
     {
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
     }

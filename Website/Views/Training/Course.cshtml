@@ -1,5 +1,7 @@
-﻿@model Website.Models.TrainingModel
+﻿@model Website.Models.CourseModel
 
+@Html.HiddenFor(m => m.TypeId, new {id="typeId"})
+@Html.HiddenFor(m => m.Id, new { id = "courseId" })
 @Html.Raw(Model.Title)
 
 @Html.Raw(Model.Content)

@@ -41,8 +41,12 @@ namespace Website.Infrastructure
         Overview = 1,
         [Display(Name = "F Gas Category 1 Training")]
         Cat1 = 2,
+        [Display(Name = "F Gas Category 2 Training")]
+        Cat2 = 3,
+        [Display(Name = "F Gas Category 3 Training")]
+        Cat3 = 4,
         [Display(Name = "F Gas Category 4 Training")]
-        Cat4 = 3,
+        Cat4 = 5,
     }
 
     public enum Service

@@ -69,7 +69,7 @@ body{
     position: relative;
     z-index: 999;
     width:200px;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0 0 5px 5px;
     background-color:#FFFFFF;
     border-style:solid;
     border-color: #7693D6;
@@ -79,8 +79,8 @@ body{
 }
 
 #header-content {
-    height: 32px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
-    padding: 8px;
+    height: 40px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
+    padding-bottom: 10px;
 }
 
 #logo-content {
@@ -133,12 +133,15 @@ h2{
     color:#66cdcc;
     padding-bottom:15px;
 }
-h3 {
+h3, h3 a, h3 a:visited {
     color: #7693D6;
     font-weight:bold;
     font-size:15pt;
 }
 
+h3 a:hover {
+    color: #F6903C;
+}
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -158,6 +161,10 @@ textarea {
 li a, li a:visited, li a:link{
     color:#333333;
     text-decoration: none;
+}
+
+li.active {
+    background-color: #FFD47F;
 }
 
 ul.collapseList li:hover {

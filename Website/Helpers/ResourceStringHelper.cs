@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Resources;
 
-namespace Website.Infrastructure
+namespace Website.Helpers
 {
-    public class Helper
+    public class ResourceStringHelper
     {
         public static string GetResourceString(string key)
         {

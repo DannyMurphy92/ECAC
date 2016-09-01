@@ -66,7 +66,7 @@ namespace Website.Resources {
         ///&lt;p&gt;
         ///We will visit your site, discuss your requirements and examine your refrigeration or Air-conditioning equipment. We will then produce a first draft training outline which will be issued to you for approval. When the content has been agreed we will prod [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string BESPOKE_SERVICE_CONTENT {
+        internal static string BESPOKE_SERVICES_CONTENT {
             get {
                 return ResourceManager.GetString("BESPOKE_SERVICE_CONTENT", resourceCulture);
             }
@@ -75,7 +75,7 @@ namespace Website.Resources {
         /// <summary>
         ///   Looks up a localized string similar to &lt;h1&gt;Bespoke Course Design and Delivery&lt;/h1&gt;.
         /// </summary>
-        internal static string BESPOKE_SERVICE_TITLE {
+        internal static string BESPOKE_SERVICES_TITLE {
             get {
                 return ResourceManager.GetString("BESPOKE_SERVICE_TITLE", resourceCulture);
             }
@@ -106,11 +106,10 @@ namespace Website.Resources {
         ///   Looks up a localized string similar to &lt;p&gt;ECAC offers the full range of City &amp; Guilds 2079 Fgas training and certification. We are the main provider of these qualifications in the Irish market and have been offering City &amp; Guilds qualifications for over 10 years.  
         ///&lt;/p&gt;
         ///&lt;h2&gt;There are four levels in the qualification:&lt;/h2&gt;
-        ///&lt;h3&gt;2079 100 (Cat 1)&lt;/h3&gt;
+        ///&lt;h3&gt;&lt;a href=&quot;$$FGAS_CAT1_LINK$$&quot;&gt;2079 100 (Cat 1)&lt;/a&gt;&lt;/h3&gt;
         ///&lt;p&gt;Successful candidates will be qualified to undertake leak checking, recovery, installation, service and maintenance of equipment.
         ///&lt;/p&gt;
-        ///&lt;h3&gt;2079 200 (Cat 2)&lt;/h3&gt;
-        ///&lt;p&gt;Successful candidates will  [rest of string was truncated]&quot;;.
+        ///&lt;h3&gt;&lt;a href=&quot;$$FGAS_CAT2 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string FGAS_OVERVIEW_CONTENT {
             get {
@@ -119,11 +118,103 @@ namespace Website.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h1&gt;Cityy &amp; Guilds 2079 (F Gas) Qualifications&lt;/h1&gt;.
+        ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 (F Gas) Qualifications&lt;/h1&gt;.
         /// </summary>
         internal static string FGAS_OVERVIEW_TITLE {
             get {
                 return ResourceManager.GetString("FGAS_OVERVIEW_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;For candidates who have completed our Introduction to Refrigeration course we offer a more advanced program. We will build on your existing knowledge and experience to develop your fault finding and maintenance skills. This course includes an opportunity for candidates to install, commission and decommission a working vapour compression system under supervision.&lt;/p&gt;
+        ///&lt;ul&gt;
+        ///	&lt;li&gt;Recording operating conditions and parameters&lt;/li&gt;
+        ///	&lt;li&gt;Analysing system conditions with a focus on predictive maintenance&lt;/li&gt; [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string REFRIG_ADVANCED_CONTENT {
+            get {
+                return ResourceManager.GetString("REFRIG_ADVANCED_CONTENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;h1&gt;Advanced Refrigeration Maintenance and Fault Finding&lt;/h1&gt;.
+        /// </summary>
+        internal static string REFRIG_ADVANCED_TITLE {
+            get {
+                return ResourceManager.GetString("REFRIG_ADVANCED_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;The following is an outline of our one day on site toolbox talk on R717 (Anhydrous Ammonia) safety course. This course is designed for all personnel who may come into contact with Anhydrous Ammonia refrigerant in the work place. It is designed to make all participants aware of the risks and safety procedures involved in handling R717.&lt;p&gt;
+        ///&lt;ul&gt;
+        ///	&lt;li&gt;Overview of refrigerants (CFC, HCFC, HFC and Natural Refrigerants)&lt;/li&gt;
+        ///	&lt;li&gt;Ammonia as a refrigerant, &lt;/li&gt;
+        ///	&lt;li&gt;Flammability and toxicity&lt;/li&gt;
+        ///	&lt;li&gt;Phys [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string REFRIG_AMMONIA_CONTENT {
+            get {
+                return ResourceManager.GetString("REFRIG_AMMONIA_CONTENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;h1&gt;R717 Ammonia Safety Workshop(1 Day)&lt;/h1&gt;.
+        /// </summary>
+        internal static string REFRIG_AMMONIA_TITLE {
+            get {
+                return ResourceManager.GetString("REFRIG_AMMONIA_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;When you enrol on our Basic Refrigeration &amp; Air Conditioning program at ECAC, you will receive the training necessary to begin understanding the operation and function of the major components of the system and how to carry out basic maintenance and fault finding. 
+        ///&lt;/p&gt;
+        ///&lt;p&gt;The course is designed for tradesmen and technicians who’s duties put them in contact with refrigeration and HVAC plant.&lt;/p&gt;
+        ///&lt;h3&gt;The course will cover various areas, including:&lt;/h3&gt;
+        ///&lt;ul&gt;
+        ///	&lt;li&gt;Basic Design and operation of the vapou [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string REFRIG_INTRO_CONTENT {
+            get {
+                return ResourceManager.GetString("REFRIG_INTRO_CONTENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;h1&gt;Introduction to Refrigeration&lt;/h1&gt;.
+        /// </summary>
+        internal static string REFRIG_INTRO_TITLE {
+            get {
+                return ResourceManager.GetString("REFRIG_INTRO_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;Designed for candidates working with Industrial refrigeration systems but without any formal training in this area but have a good working knowledge or have completed an Introduction to Refrigeration training program.&lt;p&gt;
+        ///&lt;ul&gt;
+        ///	&lt;li&gt;Refrigeration Systems Review&lt;/li&gt;
+        ///	&lt;li&gt;Basic vapour compression cycle&lt;/li&gt;
+        ///	&lt;li&gt;Pressure-enthalpy diagrams&lt;/li&gt;
+        ///	&lt;li&gt;Influence of head pressure, suction pressure, sub cooling &amp; superheat &lt;/li&gt;
+        ///	&lt;li&gt;System balance &lt;/li&gt;
+        ///	&lt;li&gt;Condensers, types:  Air cooled, water-cooled, e [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string REFRIG_LIQUID_CONTENT {
+            get {
+                return ResourceManager.GetString("REFRIG_LIQUID_CONTENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;h1&gt;Liquid Overfeed Systems (3 Days)&lt;/h1&gt;.
+        /// </summary>
+        internal static string REFRIG_LIQUID_TITLE {
+            get {
+                return ResourceManager.GetString("REFRIG_LIQUID_TITLE", resourceCulture);
             }
         }
     }

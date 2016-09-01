@@ -1,4 +1,5 @@
-﻿@model Website.Models.TrainingModel
-    
+﻿@model Website.Models.ServiceModel
+
+@Html.HiddenFor(m => m.Id, new {id = "serviceId"})
 @Html.Raw(Model.Title)
 @Html.Raw(Model.Content)
