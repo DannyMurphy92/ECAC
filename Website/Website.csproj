@@ -281,6 +281,7 @@
     <Content Include="Views\Common\_Footer.cshtml" />
     <Content Include="Views\Training\Service.cshtml" />
     <Content Include="Views\Common\_Navbar.cshtml" />
+    <Content Include="Views\Common\_SidebarMenu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

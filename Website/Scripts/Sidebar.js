@@ -2,8 +2,17 @@
     $(".sidebar-collapselist").on("click", function () {
         $(".sidebar-collapselist:not(.collapsed)").not(this).click();
     });
+
     setActive();
 
+    $('#showSidebar').on('click', function () {
+        if ($('.sidebar-menu').is(':visible')) {
+            $('.sidebar-menu').hide();
+        } else {
+            $('.sidebar-menu').show();
+        }
+
+    });
 });
 
 function setActive() {

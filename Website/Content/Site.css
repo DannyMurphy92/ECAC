@@ -1,4 +1,52 @@
-﻿/*#region LAYOUT*/
+﻿/*#region MEDIA QUERIES*/
+
+/*LARGE SCREENS*/
+@media (min-width: 992px) {
+    #logo-content {
+        padding-left: 5%;
+    }
+    .header-logo {
+        width:180px;
+    }
+    #logo-content {
+        padding-left: 5%;
+    }
+    .header-logo {
+        width:180px;
+    }
+    #main {
+        margin-left: 16.66667%;
+    }
+
+    #sidebar-lg {
+        width: 16.66667%;
+    }
+    #header {
+        position: relative;
+    }
+} 
+
+/*SMALL SCREENS*/
+@media (max-width: 992px) {
+    #logo-content {
+        padding-left: 25%;
+    }
+    .header-logo {
+        width:100px;
+    }
+    #header {
+        top: 0;
+        position: fixed;
+    }
+    .sidebar-menu {
+        display: none;
+    }
+}
+ 
+/*#endregion MEDIA QUERIES*/
+
+
+/*#region LAYOUT*/
 *{
     font-family:'Open Sans', sans-serif;
     font-size:15pt;
@@ -23,7 +71,7 @@ body{
 
 
 
-.content {
+.content #main, content #sidebar-lg {
     height: 100%;
 }
 
@@ -32,27 +80,36 @@ body{
     clear: both;
 }
 #main {
-    margin-left: 350px;
-    padding-left: 50px;
+    padding-left: 75px;
     padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 30px;
 }
 
 
+
 /*#endregion LAYOUT*/
 
 /*#region SIDEBAR*/
 
-#sidebar {
+#sidebar-lg {
     background-color: #ECECEC;
-    width: 350px;
     position: absolute;
     left: 0;
     top: 50px;
     bottom: 80px;
-    padding-top: 130px;
     padding-right: 25px;
+}
+
+#sidebar-sm {
+    background-color: #ECECEC;
+    left: 0;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+
+.sidebar-menu {
+    padding-top: 100px;
 }
 
 /*#endregion SIDEBAR*/
@@ -62,13 +119,11 @@ body{
 #header {
     background-color:#7693D6;
     height: 50px;
-    position: relative;
 }
 
 .header-logo{
     position: relative;
     z-index: 999;
-    width:200px;
     border-radius: 0 0 5px 5px;
     background-color:#FFFFFF;
     border-style:solid;
@@ -83,9 +138,10 @@ body{
     padding-bottom: 10px;
 }
 
-#logo-content {
-    padding-left: 180PX;
-}
+
+
+
+
 /*#endregion HEADER*/
 
 
@@ -167,7 +223,7 @@ li.active {
     background-color: #FFD47F;
 }
 
-ul.collapseList li:hover {
+ul.collapseList li:hover, u.collapseList li.active:hover {
     background-color: #FFD47F;
     text-decoration: none;
 }

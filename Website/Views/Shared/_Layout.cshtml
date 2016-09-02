@@ -1,17 +1,16 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
-        @Html.Action("Header", "Common")
-    </head>
+<head>
+    <title>ECAC Training</title>
+    @Html.Action("Header", "Common")
+</head>
     <body>
 
         <div id="wrapper">
     
             @Html.Action("Navbar", "Common")
             <div class="content">
-                <div id="sidebar">
-                    @Html.Action("Sidebar", "Common")
-                </div>
+                @Html.Action("Sidebar", "Common")
                 <div id="main">
                     @RenderBody()
                 </div>

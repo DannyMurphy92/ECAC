@@ -13,6 +13,11 @@ namespace Website.Controllers
         {
             return PartialView("_Sidebar");
         }
+
+        public PartialViewResult SidebarMenu()
+        {
+            return PartialView("_SidebarMenu");
+        }
         public PartialViewResult Header()
         {
             return PartialView("_Header");
