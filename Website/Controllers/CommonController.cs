@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Website.Models;
 
 namespace Website.Controllers
 {
@@ -14,9 +15,13 @@ namespace Website.Controllers
             return PartialView("_Sidebar");
         }
 
-        public PartialViewResult SidebarMenu()
+        public PartialViewResult SidebarMenu(string identifier)
         {
-            return PartialView("_SidebarMenu");
+            var model = new SidebarMenuModel
+            {
+                Identifier = identifier
+            };
+            return PartialView("_SidebarMenu", model);
         }
         public PartialViewResult Header()
         {

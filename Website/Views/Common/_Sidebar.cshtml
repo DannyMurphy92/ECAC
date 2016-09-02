@@ -1,11 +1,11 @@
 ﻿<div class="hidden-xs col-md-2" id="sidebar-lg">
-    @Html.Action("SidebarMenu", "Common")
+    @Html.Action("SidebarMenu", "Common", new { identifier = "lg" })
 </div>
 
 <div class="visible-xs" id="sidebar-sm">
     <div id="testing">
     
-    @Html.Action("SidebarMenu", "Common")
+    @Html.Action("SidebarMenu", "Common", new { identifier = "sm"})
     
     </div>
 </div>

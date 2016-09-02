@@ -191,6 +191,7 @@
     <Compile Include="Helpers\ResourceStringHelper.cs" />
     <Compile Include="Models\ServiceModel.cs" />
     <Compile Include="Models\CourseModel.cs" />
+    <Compile Include="Models\SidebarMenuModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Content.Designer.cs">
       <AutoGen>True</AutoGen>

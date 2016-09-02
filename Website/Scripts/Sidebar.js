@@ -3,7 +3,7 @@
         $(".sidebar-collapselist:not(.collapsed)").not(this).click();
     });
 
-    //setActive();
+    setActive();
 
     $('#showSidebar').on('click', function () {
         if ($('.sidebar-menu').is(':visible')) {
@@ -19,11 +19,11 @@
 function setActive() {
     var serviceId = $('#serviceId').val();
     if (typeof serviceId != "undefined") {
-        $('li[data-serviceid="' + serviceId + '"]').addClass('active');
+        $('#sidebar-lg li[data-serviceid="' + serviceId + '"]').addClass('active');
     } else {
         var courseId = $('#courseId').val();
         var typeId = $('#typeId').val();
-        $('ul[data-trainingtypeid="' + typeId + '"] > li[data-courseid="' + courseId + '"]').addClass('active');
-        $('ul[data-trainingtypeid="' + typeId + '"]').prev().click();
+        $('#sidebar-lg ul[data-trainingtypeid="' + typeId + '"] > li[data-courseid="' + courseId + '"]').addClass('active');
+        $('#sidebar-lg ul[data-trainingtypeid="' + typeId + '"]').prev().click();
     }
 }
