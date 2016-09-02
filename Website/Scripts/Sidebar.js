@@ -3,7 +3,7 @@
         $(".sidebar-collapselist:not(.collapsed)").not(this).click();
     });
 
-    setActive();
+    //setActive();
 
     $('#showSidebar').on('click', function () {
         if ($('.sidebar-menu').is(':visible')) {
@@ -11,7 +11,8 @@
         } else {
             $('.sidebar-menu').show();
         }
-
+        //$('.sidebar-menu').stop(true, true).hide("slide", { direction: "left" }, 1000);
+        //$('#testing').animate({ width: 'toggle' }, 350);
     });
 });
 

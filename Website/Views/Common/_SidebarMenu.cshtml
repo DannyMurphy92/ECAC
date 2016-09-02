@@ -9,9 +9,9 @@
         <li>
             <a href="@Url.Action("Index", "Home")">Home</a>
         </li>
-        <li class="action">
-            <span data-toggle="collapse" data-target="#refrigeList" class="collapsed collapse-toggle sidebar-collapselist">Refrigeration Training </span>
-            <ul class="unstyled-list collapse collapseList pad-0" id="refrigeList" data-trainingtypeId="@((int) @TrainingType.Refrigeration)">
+        <li>
+            <span data-toggle="collapse" data-target=".refrigeList" class="collapsed collapse-toggle sidebar-collapselist">Refrigeration Training </span>
+            <ul class="unstyled-list collapse collapseList pad-0 refrigeList" data-trainingtypeId="@((int) @TrainingType.Refrigeration)">
                 @foreach (Refrigeration course in Enum.GetValues(typeof(Refrigeration)))
                 {
                     <li data-courseId="@((int) course)">
@@ -22,8 +22,8 @@
         </li>
 
         <li>
-            <span data-toggle="collapse" data-target="#hvacList" class="collapsed collapse-toggle sidebar-collapselist">HVAC Training </span>
-            <ul class="unstyled-list collapse collapseList pad-0" id="hvacList" data-trainingtypeId="@((int) @TrainingType.HVAC)">
+            <span data-toggle="collapse" data-target=".hvacList" class="collapsed collapse-toggle sidebar-collapselist">HVAC Training </span>
+            <ul class="unstyled-list collapse collapseList pad-0 hvacList" data-trainingtypeId="@((int) @TrainingType.HVAC)">
                 @foreach (HVAC course in Enum.GetValues(typeof(HVAC)))
                 {
                     <li data-courseId="@((int) course)">
@@ -34,8 +34,8 @@
         </li>
 
         <li>
-            <span data-toggle="collapse" data-target="#fgasList" class="collapsed collapse-toggle sidebar-collapselist">F Gas Training </span>
-            <ul class="unstyled-list collapse collapseList pad-0" id="fgasList" data-trainingtypeId="@((int) @TrainingType.FGas)">
+            <span data-toggle="collapse" data-target=".fgasList" class="collapsed collapse-toggle sidebar-collapselist">F Gas Training </span>
+            <ul class="unstyled-list collapse collapseList pad-0 fgasList" data-trainingtypeId="@((int) @TrainingType.FGas)">
                 @foreach (FGas course in Enum.GetValues(typeof(FGas)))
                 {
                     <li data-courseId="@((int) course)">

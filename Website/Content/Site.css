@@ -2,20 +2,32 @@
 
 /*LARGE SCREENS*/
 @media (min-width: 992px) {
+    *{
+        font-size:15pt;
+    }
+    h1 {
+        font-size:30pt;
+    }
+    h2 {
+        font-size:18pt;
+    }
+    h3 {
+        font-size:15pt;
+    }
+    #wrapper {
+        
+        margin: 0 auto -80px; /* the bottom margin is the negative value of the footer's height */
+    }
     #logo-content {
         padding-left: 5%;
     }
-    .header-logo {
-        width:180px;
-    }
     #logo-content {
         padding-left: 5%;
-    }
-    .header-logo {
-        width:180px;
     }
     #main {
         margin-left: 16.66667%;
+        padding-top: 50px;
+        padding-bottom: 30px;
     }
 
     #sidebar-lg {
@@ -24,10 +36,34 @@
     #header {
         position: relative;
     }
+    .header-logo {
+        width:180px;
+    }
+    #footer {
+        height: 80px;
+    }
 } 
+
+
 
 /*SMALL SCREENS*/
 @media (max-width: 992px) {
+    *{
+        font-size:12pt;
+    }
+    h1 {
+        font-size:20pt;
+    }
+    h2 {
+        font-size:15pt;
+    }
+    h3 {
+        font-size:12pt;
+    }
+   #wrapper {
+        
+        margin: 0 auto -160px; /* the bottom margin is the negative value of the footer's height */
+    }
     #logo-content {
         padding-left: 25%;
     }
@@ -41,6 +77,14 @@
     .sidebar-menu {
         display: none;
     }
+    #main {
+        padding-top: 75px;
+        padding-bottom: 130px;
+    }
+
+    #footer {
+        height: 160px;
+    }
 }
  
 /*#endregion MEDIA QUERIES*/
@@ -49,7 +93,6 @@
 /*#region LAYOUT*/
 *{
     font-family:'Open Sans', sans-serif;
-    font-size:15pt;
 }
 
 html,
@@ -65,7 +108,6 @@ body{
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -80px; /* the bottom margin is the negative value of the footer's height */
     position: relative
 }
 
@@ -82,8 +124,6 @@ body{
 #main {
     padding-left: 75px;
     padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 30px;
 }
 
 
@@ -99,6 +139,7 @@ body{
     top: 50px;
     bottom: 80px;
     padding-right: 25px;
+    overflow: auto;
 }
 
 #sidebar-sm {
@@ -106,6 +147,7 @@ body{
     left: 0;
     padding-right: 25px;
     padding-bottom: 30px;
+    position: fixed;
 }
 
 .sidebar-menu {
@@ -119,11 +161,12 @@ body{
 #header {
     background-color:#7693D6;
     height: 50px;
+    z-index: 10;
 }
 
 .header-logo{
     position: relative;
-    z-index: 999;
+    z-index: 10;
     border-radius: 0 0 5px 5px;
     background-color:#FFFFFF;
     border-style:solid;
@@ -148,11 +191,9 @@ body{
 
 /*#region FOOTER*/
 #footer{
-    height: 80px;
     background-color:#7693D6;
 }
 #footer-content {
-    height: 50px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
     padding: 15px;
 }
 
@@ -178,13 +219,11 @@ a:hover {
 }
 h1{
     text-transform: uppercase;
-    font-size:30pt;
     font-weight:bold;
     color:#66cdcc;
     padding-bottom: 30px;
 }
 h2{
-    font-size:18pt;
     font-weight:bold;
     color:#66cdcc;
     padding-bottom:15px;
@@ -192,7 +231,6 @@ h2{
 h3, h3 a, h3 a:visited {
     color: #7693D6;
     font-weight:bold;
-    font-size:15pt;
 }
 
 h3 a:hover {
@@ -234,7 +272,7 @@ ul.collapseList li a{
 
 
 .spaced-list li{
-    margin-bottom:10px;
+    padding-bottom:10px;
 }
 
 .collapse-toggle{
