@@ -28,6 +28,8 @@
         margin-left: 16.66667%;
         padding-top: 50px;
         padding-bottom: 30px;
+        padding-left: 75px;
+        padding-right: 50px;
     }
 
     #sidebar-lg {
@@ -80,6 +82,8 @@
     #main {
         padding-top: 75px;
         padding-bottom: 130px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     #footer {
@@ -113,17 +117,13 @@ body{
 
 
 
-.content #main, content #sidebar-lg {
+.content #main, .content #sidebar-lg {
     height: 100%;
 }
 
 .push {
     height: 50px;
     clear: both;
-}
-#main {
-    padding-left: 75px;
-    padding-right: 50px;
 }
 
 
@@ -146,8 +146,10 @@ body{
     background-color: #ECECEC;
     left: 0;
     padding-right: 25px;
-    padding-bottom: 30px;
     position: fixed;
+    width: 300px;
+    max-height: 500px;
+    overflow: auto;
 }
 
 .sidebar-menu {
@@ -162,6 +164,7 @@ body{
     background-color:#7693D6;
     height: 50px;
     z-index: 10;
+    padding-left: 0;
 }
 
 .header-logo{
@@ -177,12 +180,12 @@ body{
 }
 
 #header-content {
-    height: 40px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
-    padding-bottom: 10px;
+    height: 100%; /* height + top/bottom paddding + top/bottom border must add up to footer height */
 }
 
-
-
+.header-col {
+    height: 100%;
+}
 
 
 /*#endregion HEADER*/
@@ -221,7 +224,6 @@ ul li a {
   display:block;
   height:100%;
   width:100%;
-  line-height:XXpx;
 }
 
 h1{
@@ -258,6 +260,17 @@ textarea {
     max-width: 280px;
 }
 
+.nav-btn {
+    height: 100%;
+    background-color:#7693D6;
+    
+    padding: 0 10px;
+}
+
+.nav-btn i {
+    color:#ECECEC;
+    font-size: 20pt !important;
+}
 
 li a, li a:visited, li a:link{
     color:#333333;
@@ -316,6 +329,9 @@ ul.collapseList li {
 
 .pad-0{
     padding: 0;
+}
+.pad-l-0 {
+    padding-left: 0;
 }
 .pad-l-20{
     padding-left:20px;
