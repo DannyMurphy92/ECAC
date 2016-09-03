@@ -152,6 +152,8 @@ body{
     overflow: auto;
 }
 
+
+
 .sidebar-menu {
     padding-top: 100px;
 }
@@ -163,7 +165,8 @@ body{
 #header {
     background-color:#7693D6;
     height: 50px;
-    z-index: 10;
+    /*on top of modal*/
+    z-index: 1055;
     padding-left: 0;
 }
 
