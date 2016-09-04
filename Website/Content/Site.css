@@ -1,7 +1,7 @@
 ﻿/*#region MEDIA QUERIES*/
 
 /*LARGE SCREENS*/
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     *{
         font-size:15pt;
     }
@@ -47,7 +47,7 @@
 
 
 /*SMALL SCREENS*/
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     *{
         font-size:12pt;
     }
