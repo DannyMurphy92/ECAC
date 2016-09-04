@@ -237,6 +237,7 @@
     <Content Include="Content\Images\favicon\ms-icon-70x70.png" />
     <Content Include="Content\Images\header-logo.png" />
     <Content Include="Content\Images\header-logo.svg" />
+    <Content Include="Content\Images\homepage-banner.jpg" />
     <Content Include="Content\Images\jQueryUI\ui-icons_444444_256x240.png" />
     <Content Include="Content\Images\jQueryUI\ui-icons_555555_256x240.png" />
     <Content Include="Content\Images\jQueryUI\ui-icons_777620_256x240.png" />

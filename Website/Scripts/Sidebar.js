@@ -14,13 +14,6 @@
         //$('.sidebar-menu').stop(true, true).hide("slide", { direction: "left" }, 1000);
         //$('#testing').animate({ width: 'toggle' }, 350);
     });
-
-    $('#main').on('click', function () {
-        debugger;
-        if ($('.sidebar-menu').is(':visible')) {
-            $('.sidebar-menu').hide();
-        }
-    });
 });
 
 function setActive() {

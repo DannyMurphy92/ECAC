@@ -2,14 +2,8 @@
     @Html.Action("SidebarMenu", "Common", new { identifier = "lg" })
 </div>
 
-@*<div class="visible-xs" id="sidebar-sm">
-
-    @Html.Action("SidebarMenu", "Common", new {identifier = "sm"})
-
-</div>*@
-
-<div class="modal fade" id="sm-sidebar-modal" role="dialog" style="padding-top: 30px;">
-    <div class="visible-xs" id="sidebar-sm">
+<div class="modal fade-left fade" id="sm-sidebar-modal" role="dialog" style="padding-top: 30px;">
+    <div class="visible-xs modal-dialog" id="sidebar-sm">
         @Html.Action("SidebarMenu", "Common", new { identifier = "sm" })
     </div>
 </div>
