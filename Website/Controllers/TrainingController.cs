@@ -27,6 +27,9 @@ namespace Website.Controllers
             var model = new CourseModel();
             model.Id = courseId;
             model.TypeId = typeId;
+
+            string title = "";
+            string content = "";
             switch (typeId)
             {
                 case (int)TrainingType.Refrigeration:
@@ -35,26 +38,26 @@ namespace Website.Controllers
                     {
                         case (int) Refrigeration.Intro:
                         {
-                            model.Title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_INTRO_TITLE);
-                            model.Content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_INTRO_CONTENT);
+                            title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_INTRO_TITLE);
+                            content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_INTRO_CONTENT);
                             break;
                         }
                         case (int) Refrigeration.Advanced:
                         {
-                            model.Title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_ADVANCED_TITLE);
-                            model.Content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_ADVANCED_CONTENT);
+                            title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_ADVANCED_TITLE);
+                            content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_ADVANCED_CONTENT);
                             break;
                         }
                         case (int)Refrigeration.Ammonia:
                         {
-                            model.Title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_AMMONIA_TITLE);
-                            model.Content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_AMMONIA_CONTENT);
+                            title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_AMMONIA_TITLE);
+                            content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_AMMONIA_CONTENT);
                             break;
                         }
                     case (int)Refrigeration.Liquid:
                         {
-                            model.Title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_LIQUID_TITLE);
-                            model.Content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_LIQUID_CONTENT);
+                            title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_LIQUID_TITLE);
+                            content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_LIQUID_CONTENT);
                             break;
                         }
                     }
@@ -66,8 +69,8 @@ namespace Website.Controllers
                         {
                             case (int)HVAC.Intro:
                                 {
-                                    model.Title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.HVAC_INTRO_TITLE);
-                                    model.Content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.HVAC_INTRO_CONTENT);
+                                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.HVAC_INTRO_TITLE);
+                                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.HVAC_INTRO_CONTENT);
                                     break;
                                 }
                             case (int)HVAC.Advanced:
@@ -88,9 +91,9 @@ namespace Website.Controllers
                         {
                             case (int)FGas.Overview:
                             {
-                                model.Title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_OVERVIEW_TITLE);
-                                model.Content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_OVERVIEW_CONTENT);
-                                model.Content = PlaceholderHelper.FgasOverviewPlaceholders(model.Content);
+                                title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_OVERVIEW_TITLE);
+                                content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_OVERVIEW_CONTENT);
+                                content = PlaceholderHelper.FgasOverviewPlaceholders(content);
                                 break;
                             }
                             case (int)FGas.Cat1:
@@ -105,7 +108,10 @@ namespace Website.Controllers
                         break;
                     }
             }
-
+            model.DesktopTitle = title;
+            model.MobileTitle = title;
+            model.DesktopContent = content;
+            model.MobileContent = content;
             return model;
         }
 
@@ -113,22 +119,29 @@ namespace Website.Controllers
         {
             var model = new ServiceModel();
             model.Id = id;
+
+            string title = "";
+            string content = "";
             switch (id)
             {
                 case (int)Infrastructure.Service.Bespoke:
                 {
-                    model.Title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.BESPOKE_SERVICES_TITLE);
-                    model.Content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.BESPOKE_SERVICES_CONTENT);
+                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.BESPOKE_SERVICES_TITLE);
+                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.BESPOKE_SERVICES_CONTENT);
                     break;
                     }
                 case (int)Infrastructure.Service.Employability:
                     {
-                        model.Title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.EMPLOYABILITY_SERVICES_TITLE);
-                        model.Content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.EMPLOYABILITY_SERVICES_CONTENT);
+                        title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.EMPLOYABILITY_SERVICES_TITLE);
+                        content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.EMPLOYABILITY_SERVICES_CONTENT);
                         break;
                     }
             }
 
+            model.DesktopTitle = title;
+            model.MobileTitle = title;
+            model.DesktopContent = content;
+            model.MobileContent = content;
             return model;
 
         }

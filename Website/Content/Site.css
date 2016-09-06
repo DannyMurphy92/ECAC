@@ -166,6 +166,7 @@ body{
     /*on top of modal*/
     z-index: 1055;
     padding-left: 0;
+    width: 100%;
 }
 
 .logo {
