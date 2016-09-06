@@ -1,5 +1,8 @@
 ﻿<div class="hidden-xs col-md-2" id="sidebar-lg">
-    @Html.Action("SidebarMenu", "Common", new { identifier = "lg" })
+    <div id="logo-container">
+        <a href="@Url.Action("Index", "Home")" id="sidebar-logo"><img src="~/Content/Images/header-logo.svg" class="logo" /></a>
+    </div>
+    @Html.Action("SidebarMenu", "Common", new {identifier = "lg"})
 </div>
 
 <div class="modal fade-left fade" id="sm-sidebar-modal" role="dialog" style="padding-top: 30px;">

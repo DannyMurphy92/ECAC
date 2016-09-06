@@ -18,29 +18,29 @@
         
         margin: 0 auto -80px; /* the bottom margin is the negative value of the footer's height */
     }
-    #logo-content {
-        padding-left: 5%;
-    }
-    #logo-content {
-        padding-left: 5%;
-    }
     #main {
-        padding-top: 50px;
+        padding-top: 30px;
         padding-bottom: 30px;
         padding-left: 75px;
         padding-right: 50px;
     }
-
+    .content {
+        margin-left: 320px;
+    }
     
     #sidebar-lg {
-        width: 16.66667%;
-        min-width: 300px;
+        width: 320px;
     }
+
     #header {
         position: relative;
     }
     #footer {
-        height: 80px;
+        height: 100px;
+        margin-left: 300px;
+    }
+    .logo {
+        width: 150px;
     }
 } 
 
@@ -67,7 +67,7 @@
     #logo-content {
         padding-left: 25%;
     }
-    .header-logo {
+    .logo {
         width:100px;
     }
     #header {
@@ -87,6 +87,9 @@
     #footer {
         height: 160px;
     }
+    .sidebar-menu {
+    padding-top: 100px;
+}
 }
  
 /*#endregion MEDIA QUERIES*/
@@ -132,10 +135,9 @@ body{
 
 #sidebar-lg {
     background-color: #ECECEC;
-    position: absolute;
-    left: 0;
-    top: 50px;
-    bottom: 80px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
     padding-right: 25px;
     overflow: auto;
 }
@@ -150,10 +152,8 @@ body{
     overflow: auto;
 }
 
-
-
-.sidebar-menu {
-    padding-top: 100px;
+#sidebar-logo {
+    margin-left: 40px;
 }
 
 /*#endregion SIDEBAR*/
@@ -168,28 +168,23 @@ body{
     padding-left: 0;
 }
 
-
-.header-logo{
+.logo {
     position: relative;
-    z-index: 10;
     border-radius: 0 0 5px 5px;
-    background-color:#FFFFFF;
-    border-style:solid;
+    background-color: #FFFFFF;
+    border-style: solid;
     border-color: #7693D6;
-    border-left-width:2px;
-    border-right-width:2px;
-    border-bottom-width:2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
 }
 
 #header-content {
     height: 100%; /* height + top/bottom paddding + top/bottom border must add up to footer height */
+    
+    position: relative;
+    z-index: 10;
 }
-
-.header-col {
-    height: 100%;
-}
-
-
 /*#endregion HEADER*/
 
 
@@ -215,6 +210,9 @@ body{
 
 
 /*#region ELEMENTS*/
+#logo-container {
+    height: 130px;
+}
 a, a:visited {
     color: #FFCEA6;
 }
@@ -227,6 +225,7 @@ ul li a {
   height:100%;
   width:100%;
 }
+
 
 .modal-dialog {
     margin: 0;
@@ -302,7 +301,7 @@ ul.collapseList li a{
 
 
 .spaced-list li{
-    padding-bottom:10px;
+    margin-bottom:10px;
 }
 
 .collapse-toggle{
@@ -347,6 +346,9 @@ ul.collapseList li {
 .pad-l-20{
     padding-left:20px;
 }
+.pad-t-10 {
+     padding-top: 10px;
+ }
 .pad-b-10{
     padding-bottom:10px;
 }
