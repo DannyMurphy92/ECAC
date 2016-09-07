@@ -93,7 +93,6 @@ namespace Website.Controllers
                             {
                                 title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_OVERVIEW_TITLE);
                                 content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_OVERVIEW_CONTENT);
-                                content = PlaceholderHelper.FgasOverviewPlaceholders(content);
                                 break;
                             }
                             case (int)FGas.Cat1:

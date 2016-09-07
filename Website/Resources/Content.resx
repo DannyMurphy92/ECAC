@@ -119,17 +119,17 @@
   </resheader>
   <data name="BESPOKE_SERVICES_CONTENT" xml:space="preserve">
     <value>&lt;p&gt;Every refrigeration or air-conditioning system is different. Here at ECAC we understand that an off the shelf course will not suit everybody’s requirements and therefore we will design and deliver training to suit your unique requirements.&lt;/p&gt;
-&lt;/br&gt;
+
 &lt;p&gt;
-We will visit your site, discuss your requirements and examine your refrigeration or Air-conditioning equipment. We will then produce a first draft training outline which will be issued to you for approval. When the content has been agreed we will produce all the course materials specifically designed to suit your requirements.
+We will visit your site to discuss your requirements and examine your refrigeration or Air-conditioning equipment. We will produce a first draft training outline which will be issued to you for approval. When the content has been agreed we will produce all the course materials specifically designed to suit your requirements.
 &lt;/p&gt;
-&lt;/br&gt;
 &lt;p&gt;
-We are also aware that it is sometimes difficult to arrange training due to shift patterns. We at ECAC will work around your staff availability, be that during the day, in the evening or at weekends
-&lt;/p&gt;</value>
+Sometimes it is difficult to arrange training due to shift patterns. At ECAC will work around your staff availability, be that during the day, in the evening or at weekends.
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Please Contact us to arrange a site visit, we look forward to working with you.&lt;/b&gt;&lt;/p&gt;</value>
   </data>
   <data name="BESPOKE_SERVICES_TITLE" xml:space="preserve">
-    <value>&lt;h1&gt;Bespoke Course Design and Delivery&lt;/h1&gt;</value>
+    <value>&lt;h1&gt;Tailored Course Design and Needs Analysis&lt;/h1&gt;</value>
   </data>
   <data name="EMPLOYABILITY_SERVICES_CONTENT" xml:space="preserve">
     <value>&lt;p&gt;ECAC has a reputation for innovation and responsiveness to the requirements of Industry and the employees of Industry. We are aware that the days of a ‘job for life’ are a thing of the past and whether it be through choice or circumstances many people will change their job or employer many times over their lifetime.
@@ -158,52 +158,14 @@ As part of our translation services we can also provide you with a C.V. in Germa
     <value>&lt;h1&gt;Employability Services&lt;/h1&gt;</value>
   </data>
   <data name="FGAS_OVERVIEW_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;ECAC offers the full range of City &amp; Guilds 2079 Fgas training and certification. We are the main provider of these qualifications in the Irish market and have been offering City &amp; Guilds qualifications for over 10 years.  
-&lt;/p&gt;
-&lt;h2&gt;There are four levels in the qualification:&lt;/h2&gt;
-&lt;h3&gt;&lt;a href="$$FGAS_CAT1_LINK$$"&gt;2079 100 (Cat 1)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Successful candidates will be qualified to undertake leak checking, recovery, installation, service and maintenance of equipment.
-&lt;/p&gt;
-&lt;h3&gt;&lt;a href="$$FGAS_CAT2_LINK$$"&gt;2079 200 (Cat 2)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Successful candidates will be qualified to undertake installation, service and maintenance of  equipment with a charge of less than 5 Tons equivalent CO2 and leakage checking.
-&lt;/p&gt;
-&lt;h3&gt;&lt;a href="$$FGAS_CAT3_LINK$$"&gt;2079 300 (Cat 3)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Successful candidates will be qualified to undertake the recovery of refrigerants on small systems.
-&lt;/p&gt;
-&lt;h3&gt;&lt;a href="$$FGAS_CAT4_LINK$$"&gt;2079 400 (Cat 4)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Successful candidates will be qualified to undertake leakage checking.
-&lt;/p&gt;
-
-&lt;p&gt;For each qualification, candidates will be required to successfully complete both of the following assessments:
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;One Practical Assessment
-&lt;/li&gt;
-&lt;li&gt;One Theoretical Assessment
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Grading and Marking&lt;/h3&gt;
-&lt;p&gt;Grading of assessments for these units and qualifications is pass or fail. The theoretical, multiple choice assessment is externally marked by EVOLVE. The practical assessment is internally marked and externally verified.
-&lt;/P&gt;
-
-&lt;h3&gt;Training&lt;/h3&gt;
-&lt;p&gt;Training days will cover all aspects of the F gas assessment with a strong emphasis on the requirements of the EVOLVE online theory assessment.
-&lt;/P&gt;
-
-&lt;h3&gt;All Candidates are required to bring the following Items for the  Assessment&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt; Copy of photo I.D. (passport, license etc.)
-&lt;/li&gt;
-&lt;li&gt; Full P.P.E. (Including steel capped boots, fire retardant overalls etc.)
-&lt;/li&gt;
-&lt;li&gt;Candidates may use their own equipment and tools for the assessment subject to safety requirements, alternately, equipment will be provided.
-&lt;/li&gt;
-&lt;/ul&gt;</value>
+    <value>&lt;p&gt;ECAC offers the full range of City &amp; Guilds 2079 F Gas training and certification. We are the main provider of these qualifications in the Irish market and have been offering City &amp; Guilds qualifications for over 10 years
+There are four categories in F Gas, from category 4 which allows candidates to leak test systems through to category 1 which qualifies technicians to undertake leak checking, recovery, installation, service and maintenance of equipment on any quantity of HFC refrigerant.&lt;/p&gt;
+&lt;p&gt;
+At ECAC we offer all levels of City &amp; Guilds certification and in addition we also offer our Intensive F Gas course. This course is aimed at technicians dealing with refrigeration and air-conditioning equipment on a regular basis but due to the nature of their work, do not have exposure to all of the elements necessary to complete the City &amp; Guilds 2079 F gas assessment.
+The training is a blend of theory, practical and sample assessments over four days, followed by the F Gas assessment on day five.&lt;/p&gt;</value>
   </data>
   <data name="FGAS_OVERVIEW_TITLE" xml:space="preserve">
-    <value>&lt;h1&gt;City &amp; Guilds 2079 (F Gas) Qualifications&lt;/h1&gt;</value>
+    <value>&lt;h1&gt;City &amp; Guilds 2079 (F Gas) Qalifications&lt;/h1&gt;</value>
   </data>
   <data name="HVAC_INTRO_CONTENT" xml:space="preserve">
     <value>&lt;p&gt;HVAC (Heating, Ventilation &amp; Air Conditioning) systems are a part of most commercial or Industrial buildings. Whether it is designed to provide a comfortable environment for staff or as a requirement for a manufacturing process its correct maintenance is vital in order to keep productivity and quality levels to an acceptable level. This course is designed to give your maintenance and facilities staff an insight into the operation of HVAC systems and the maintenance procedures required to keep your system operating at its optimum level.
@@ -213,101 +175,31 @@ As part of our translation services we can also provide you with a C.V. in Germa
     <value>&lt;h1&gt;Introduction to  HVAC Systems (3 Days)&lt;/h1&gt;</value>
   </data>
   <data name="REFRIG_ADVANCED_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;For candidates who have completed our Introduction to Refrigeration course we offer a more advanced program. We will build on your existing knowledge and experience to develop your fault finding and maintenance skills. This course includes an opportunity for candidates to install, commission and decommission a working vapour compression system under supervision.&lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;Recording operating conditions and parameters&lt;/li&gt;
-	&lt;li&gt;Analysing system conditions with a focus on predictive maintenance&lt;/li&gt;
-	&lt;li&gt;Typical control logic for RAC systems&lt;/li&gt;
-	&lt;li&gt;Fault finding on the major components&lt;/li&gt;
-	&lt;li&gt;Designing a suitable maintenance schedule&lt;/li&gt;
-	&lt;li&gt;Practical Installation techniques&lt;/li&gt;
-	&lt;li&gt;Leak testing, strength testing and evacuation&lt;/li&gt;
-	&lt;li&gt;Commissioning systems&lt;/li&gt;
-	&lt;li&gt;De-commissioning&lt;/li&gt;
-&lt;/ul&gt;</value>
+    <value>&lt;p&gt;For candidates who have completed our Introduction to Refrigeration course we offer a more advanced program. We will build on your existing knowledge and experience to develop your fault finding and maintenance skills. This course includes an opportunity for candidates to install, commission and decommission a working vapour compression system under supervision and takes an in depth look at a variety of vapour compression systems.&lt;/p&gt;</value>
   </data>
   <data name="REFRIG_ADVANCED_TITLE" xml:space="preserve">
     <value>&lt;h1&gt;Advanced Refrigeration Maintenance and Fault Finding&lt;/h1&gt;</value>
   </data>
   <data name="REFRIG_AMMONIA_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;The following is an outline of our one day on site toolbox talk on R717 (Anhydrous Ammonia) safety course. This course is designed for all personnel who may come into contact with Anhydrous Ammonia refrigerant in the work place. It is designed to make all participants aware of the risks and safety procedures involved in handling R717.&lt;p&gt;
-&lt;ul&gt;
-	&lt;li&gt;Overview of refrigerants (CFC, HCFC, HFC and Natural Refrigerants)&lt;/li&gt;
-	&lt;li&gt;Ammonia as a refrigerant, &lt;/li&gt;
-	&lt;li&gt;Flammability and toxicity&lt;/li&gt;
-	&lt;li&gt;Physical properties&lt;/li&gt;
-	&lt;li&gt;Physiological properties&lt;/li&gt;
-	&lt;li&gt;Chemical properties&lt;/li&gt;
-	&lt;li&gt;COSHH Regulations&lt;/li&gt;
-	&lt;li&gt;Employees Duties under the Health and safety at work regulations&lt;/li&gt;
-	&lt;li&gt;R717 First aid&lt;/li&gt;
-	&lt;li&gt;Potential hazards&lt;/li&gt;
-	&lt;li&gt;Site Precautions&lt;/li&gt;
-	&lt;li&gt;Associated Emergency equipment&lt;/li&gt;
-	&lt;li&gt;Plant room equipment&lt;/li&gt;
-	&lt;li&gt;Emergency procedures&lt;/li&gt;
-	&lt;li&gt;Ventilation&lt;/li&gt;
-	&lt;li&gt;Leak detection alarms&lt;/li&gt;
-	&lt;li&gt;Associated P.P.E&lt;/li&gt;
-	&lt;li&gt;Using P.P.E.&lt;/li&gt;
-	&lt;li&gt;Respiratory protective Equipment&lt;/li&gt;
-	&lt;li&gt;Risk identification&lt;/li&gt;
-	&lt;li&gt;Permit to work systems&lt;/li&gt;
-	&lt;li&gt;Environmental Issues&lt;/li&gt;
-	&lt;li&gt;Pressure testing&lt;/li&gt;
-	&lt;li&gt;Leak testing&lt;/li&gt;
-	&lt;li&gt;Strength test procedure&lt;/li&gt;
-	&lt;li&gt;Pumping Out and Discharging Ammonia from the System Decanting Ammonia from a Refrigeration Plant &lt;/li&gt;
-	&lt;li&gt;Labelling Cylinders&lt;/li&gt;
-	&lt;li&gt;Refrigerant Storage&lt;/li&gt;
-	&lt;li&gt;Charging Procedures&lt;/li&gt;
-&lt;/ul&gt;</value>
+    <value>&lt;p&gt;Our one day on site toolbox talk on R717 (Anhydrous Ammonia) safety course. This course is designed for all personnel who may come into contact with Anhydrous Ammonia refrigerant in the work place. It is designed to make all participants aware of the risks and safety procedures involved in handling R717. &lt;p&gt;
+&lt;p&gt;Typical candidates for this course are maintenance and warehouse staff working in Cold stores or with plant using R717 as well as emergency response team members.&lt;/p&gt;</value>
   </data>
   <data name="REFRIG_AMMONIA_TITLE" xml:space="preserve">
     <value>&lt;h1&gt;R717 Ammonia Safety Workshop(1 Day)&lt;/h1&gt;</value>
   </data>
   <data name="REFRIG_INTRO_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;When you enrol on our Basic Refrigeration &amp; Air Conditioning program at ECAC, you will receive the training necessary to begin understanding the operation and function of the major components of the system and how to carry out basic maintenance and fault finding. 
+    <value>&lt;p&gt;When you enrol on our Basic Refrigeration &amp; Air Conditioning program at ECAC, you will receive the training necessary to begin understanding the operation and function of the major components of the system and how to carry out basic maintenance and fault finding. &lt;p&gt;
+&lt;p&gt;The course is designed for tradesmen and technicians who’s duties put them in contact with refrigeration and HVAC plant.
 &lt;/p&gt;
-&lt;p&gt;The course is designed for tradesmen and technicians who’s duties put them in contact with refrigeration and HVAC plant.&lt;/p&gt;
-&lt;h3&gt;The course will cover various areas, including:&lt;/h3&gt;
-&lt;ul&gt;
-	&lt;li&gt;Basic Design and operation of the vapour compression cycle&lt;/li&gt;
-	&lt;li&gt;Safety with refrigeration plant&lt;/li&gt;
-	&lt;li&gt;Refrigerants&lt;/li&gt;
-	&lt;li&gt;Operation of major components&lt;/li&gt;
-	&lt;li&gt;Reverse cycle heat pumps&lt;/li&gt;
-	&lt;li&gt;Installation techniques&lt;/li&gt;
-	&lt;li&gt;Maintenance Procedures&lt;/li&gt;
-	&lt;li&gt;Energy efficiency&lt;/li&gt;
-	&lt;li&gt;Psychrometrics&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The course will covers a wide variety of topics selected to ensure that participants will gain knowledge on a wide variety of systems.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;To learn more about this course email or call us today!&lt;/b&gt;&lt;/p&gt;</value>
   </data>
   <data name="REFRIG_INTRO_TITLE" xml:space="preserve">
     <value>&lt;h1&gt;Introduction to Refrigeration&lt;/h1&gt;</value>
   </data>
   <data name="REFRIG_LIQUID_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;Designed for candidates working with Industrial refrigeration systems but without any formal training in this area but have a good working knowledge or have completed an Introduction to Refrigeration training program.&lt;p&gt;
-&lt;ul&gt;
-	&lt;li&gt;Refrigeration Systems Review&lt;/li&gt;
-	&lt;li&gt;Basic vapour compression cycle&lt;/li&gt;
-	&lt;li&gt;Pressure-enthalpy diagrams&lt;/li&gt;
-	&lt;li&gt;Influence of head pressure, suction pressure, sub cooling &amp; superheat &lt;/li&gt;
-	&lt;li&gt;System balance &lt;/li&gt;
-	&lt;li&gt;Condensers, types:  Air cooled, water-cooled, evaporative &lt;/li&gt;
-	&lt;li&gt;Evaporators, types - Plate-fin, o Plate-fin o Sprayed glycol o Shell-and-tube o Plate-and-frame o Ice builders DX, Flooded, Overfeed&lt;/li&gt;
-	&lt;li&gt;Defrosting Methods &lt;/li&gt;
-	&lt;li&gt;Refrigeration Components:&lt;/li&gt;
-	&lt;li&gt;Metering Devices, expansion valves: hand-expansion, thermostatic, electronic, high and low side float valves &lt;/li&gt;
-	&lt;li&gt;Compressors, Reciprocating Screw (single/twin) Rotary &lt;/li&gt;
-	&lt;li&gt;Methods of oil Vessels &amp; Accumulators • Types: high-pressure receiver, thermosiphon, low-pressure accumulator&lt;/li&gt;
-	&lt;li&gt;Refrigerant level control (floats, capacitance probes&lt;/li&gt;
-	&lt;li&gt;Gas pumping Mechanical pumping &lt;/li&gt;
-	&lt;li&gt;Purgers&lt;/li&gt;
-	&lt;li&gt;Safety Systems &amp; Equipment&lt;/li&gt;
-	&lt;li&gt;Ammonia detectors &lt;/li&gt;
-&lt;/ul&gt;</value>
+    <value>&lt;p&gt;Designed for candidates working with Industrial refrigeration systems but without any formal training in this area but have a good working knowledge or have completed an Introduction to Refrigeration training program. Liquid overfeed systems are typically used in the Food processing, Brewing and Pharmaceuticals industries and in Ireland typically uses Ammonia as a refrigerant.
+The course covers all of the major components, systems and operations including evaporative condensers and cooling towers.&lt;p&gt;</value>
   </data>
   <data name="REFRIG_LIQUID_TITLE" xml:space="preserve">
     <value>&lt;h1&gt;Liquid Overfeed Systems (3 Days)&lt;/h1&gt;</value>
