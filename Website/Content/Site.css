@@ -255,7 +255,10 @@ h3, h3 a, h3 a:visited {
 h3 a:hover {
     color: #F6903C;
 }
-
+h4 {
+    color: #000;
+    font-weight: bold;
+}
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
