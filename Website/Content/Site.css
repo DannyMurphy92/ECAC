@@ -242,7 +242,12 @@ ul li a {
     -webkit-transform: translate3d(-25%, 0, 0);
     transform: translate3d(-25%, 0, 0);
 }
-
+p {
+    margin-bottom: 25px;
+}
+li p {
+    margin-bottom: 10px;
+}
 h1{
     text-transform: uppercase;
     font-weight:bold;

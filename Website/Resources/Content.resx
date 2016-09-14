@@ -118,7 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BESPOKE_SERVICES_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;Every refrigeration or air-conditioning system is different. Here at ECAC we understand that an off the shelf course will not suit everybody’s requirements and therefore we will design and deliver training to suit your unique requirements.&lt;/p&gt;
+    <value>&lt;p&gt;Every refrigeration or air-conditioning system is different. Here at ECAC we understand that an off the shelf course will not suit everybody’s requirements and therefore we will design and deliver training to suit your unique requirements.
+&lt;/p&gt;
 
 &lt;p&gt;
 We will visit your site to discuss your requirements and examine your refrigeration or Air-conditioning equipment. We will produce a first draft training outline which will be issued to you for approval. When the content has been agreed we will produce all the course materials specifically designed to suit your requirements.
@@ -126,7 +127,7 @@ We will visit your site to discuss your requirements and examine your refrigerat
 &lt;p&gt;
 Sometimes it is difficult to arrange training due to shift patterns. At ECAC will work around your staff availability, be that during the day, in the evening or at weekends.
 &lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Please Contact us to arrange a site visit, we look forward to working with you.&lt;/b&gt;&lt;/p&gt;</value>
+&lt;p&gt;&lt;b&gt;Contact us to arrange a site visit, we look forward to working with you.&lt;/b&gt;&lt;/p&gt;</value>
   </data>
   <data name="BESPOKE_SERVICES_TITLE" xml:space="preserve">
     <value>&lt;h1&gt;Tailored Course Design and Needs Analysis&lt;/h1&gt;</value>
@@ -135,27 +136,27 @@ Sometimes it is difficult to arrange training due to shift patterns. At ECAC wil
     <value>&lt;p&gt;ECAC has a reputation for innovation and responsiveness to the requirements of Industry and the employees of Industry. We are aware that the days of a ‘job for life’ are a thing of the past and whether it be through choice or circumstances many people will change their job or employer many times over their lifetime.
 &lt;/p&gt;
 &lt;p&gt;
-We have developed a range of services designed to meet the requirements of our clients who are dealing with a career change or are in the process of helping their employees to prepare for redundancy or a change of employer.
+We have developed a range of services designed to meet the requirements of our clients who are dealing with a career change or are in the process of helping their employees to prepare for a change of employer.
 &lt;/p&gt;
 &lt;h2&gt;Career Guidance&lt;/h2&gt;
 &lt;p&gt;
-Our Career Guidance expert, Dr. Brian Staines, has over 30 years’ experience in Career guidance and employability. Brian works with both groups and individuals in order to identify future career opportunities and options based on both the individuals past experience and qualifications and their ambitions for the future.
+Our career guidance expert, Dr. Brian Staines, has over 30 years’ experience in career guidance and employability. Brian works with both groups and individuals in order to identify future career opportunities and options based on both the individuals past experience and qualifications and their ambitions for the future.
 &lt;/p&gt;
 &lt;p&gt;
-Typically Brian works with groups from companies currently dealing with redundancies to help their employees identify and prepare for opportunities in the future. The typical career guidance seminar will commence with a group session where the relevant staff members will participate in an employability workshop both to identify current skills and future ones that they would wish to develop. On completion of this Brian will work with individuals discussing and advising on the specifics of their situation and drawing up an action plan for future activities.
+Typically, Dr. Staines works with groups from companies currently dealing with redundancies to help their employees identify and prepare for opportunities in the future. The typical career guidance seminar will commence with a group session where the relevant staff members will participate in an employability workshop both to identify current skills and future ones that they would wish to develop. On completion of this seminar, Dr. Staines will work with individuals to discuss and advise on the specifics of their situation and drawing up a positive action plan for future activities.
 &lt;/p&gt;
-&lt;h2&gt;Career Guidance&lt;/h2&gt;
+&lt;h2&gt;Curriculum Vitae Writing Service&lt;/h2&gt;
 &lt;p&gt;
-In conjunction with our Language and Communication specialist, Mr Robert Howe MA, and Dr Staines, each participant will be given the opportunity to develop a Curriculum Vitae to current international standards. The clients will be helped to develop a C.V. which emphasises their skills and experience as well as their employability. Rob will concentrate on the use of language and syntax While Brian will concentrate on developing the specific information to be used in the C.V.
+In conjunction with our Language and Communication specialist,, Mr Robert Howe MA, and Dr Staines, each participant will be given the opportunity to develop a curriculum vitae to current international standards. The clients will be helped to develop a C.V. which emphasises their skills and experience, as well as their employability. Rob will concentrate on the use of language and syntax, while Brian will concentrate on developing the specific information to be used in the C.V.
 &lt;/p&gt;
-&lt;h3&gt;C.V. (German)
+&lt;h3&gt;nternational CV’s 
 &lt;/h3&gt;
 &lt;p&gt;
-As part of our translation services we can also provide you with a C.V. in German, however, unlike a direct translation service we will develop your C.V. specifically for the German jobs market.
+As part of our translation services, we can also provide you with a C.V. in German. However, unlike a direct translation service, we will develop your C.V. specifically for the American, German or Middle Eastern jobs market.
 &lt;/p&gt;</value>
   </data>
   <data name="EMPLOYABILITY_SERVICES_TITLE" xml:space="preserve">
-    <value>&lt;h1&gt;Employability Services&lt;/h1&gt;</value>
+    <value>&lt;h1&gt;Career Services&lt;/h1&gt;</value>
   </data>
   <data name="FGAS_OVERVIEW_CONTENT" xml:space="preserve">
     <value>&lt;p&gt;ECAC offers the full range of City &amp; Guilds 2079 F Gas training and certification. We are the main provider of these qualifications in the Irish market and have been offering City &amp; Guilds qualifications for over 10 years
@@ -168,40 +169,44 @@ The training is a blend of theory, practical and sample assessments over four da
     <value>&lt;h1&gt;City &amp; Guilds 2079 (F Gas) Qalifications&lt;/h1&gt;</value>
   </data>
   <data name="HVAC_INTRO_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;HVAC (Heating, Ventilation &amp; Air Conditioning) systems are a part of most commercial or Industrial buildings. Whether it is designed to provide a comfortable environment for staff or as a requirement for a manufacturing process its correct maintenance is vital in order to keep productivity and quality levels to an acceptable level. This course is designed to give your maintenance and facilities staff an insight into the operation of HVAC systems and the maintenance procedures required to keep your system operating at its optimum level.
-&lt;p&gt;</value>
+    <value>&lt;p&gt;HVAC (Heating, Ventilation &amp; Air Conditioning) systems are a part of most commercial or Industrial buildings. Whether it is designed to provide a comfortable environment for staff or as a requirement for a manufacturing process its correct maintenance is vital in order to keep productivity and quality levels to an acceptable level.
+&lt;p&gt;
+&lt;p&gt;This course is designed to give your maintenance and facilities staff an insight into the operation of HVAC systems and the maintenance procedures required to keep your system operating at its optimum level.&lt;/p&gt;</value>
   </data>
   <data name="HVAC_INTRO_TITLE" xml:space="preserve">
-    <value>&lt;h1&gt;Introduction to  HVAC Systems (3 Days)&lt;/h1&gt;</value>
+    <value>&lt;h1&gt;Introduction to  HVAC Systems (3 Day)&lt;/h1&gt;</value>
   </data>
   <data name="REFRIG_ADVANCED_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;For candidates who have completed our Introduction to Refrigeration course we offer a more advanced program. We will build on your existing knowledge and experience to develop your fault finding and maintenance skills. This course includes an opportunity for candidates to install, commission and decommission a working vapour compression system under supervision and takes an in depth look at a variety of vapour compression systems.&lt;/p&gt;</value>
+    <value>&lt;p&gt;For candidates who have completed our Introduction to Refrigeration course we offer a more advanced program. We will build on your existing knowledge and experience to develop your fault finding and maintenance skills. &lt;/p&gt;
+&lt;p&gt;
+This course includes an opportunity for candidates to install, commission and decommission a working vapour compression system under supervision and takes an in depth look at a variety of vapour compression systems.&lt;/p&gt;</value>
   </data>
   <data name="REFRIG_ADVANCED_TITLE" xml:space="preserve">
-    <value>&lt;h1&gt;Advanced Refrigeration Maintenance and Fault Finding&lt;/h1&gt;</value>
+    <value>&lt;h1&gt; Advanced Refrigeration Maintenance and Fault finding (3 Days)&lt;/h1&gt;</value>
   </data>
   <data name="REFRIG_AMMONIA_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;Our one day on site toolbox talk on R717 (Anhydrous Ammonia) safety course. This course is designed for all personnel who may come into contact with Anhydrous Ammonia refrigerant in the work place. It is designed to make all participants aware of the risks and safety procedures involved in handling R717. &lt;p&gt;
-&lt;p&gt;Typical candidates for this course are maintenance and warehouse staff working in Cold stores or with plant using R717 as well as emergency response team members.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Our one day on site toolbox talk on R717 (Anhydrous Ammonia) safety course is designed for all personnel who may come into contact with Anhydrous Ammonia refrigerant in the work place. It is designed to make all participants aware of the risks and safety procedures involved in handling R717. &lt;/p&gt;
+&lt;p&gt;
+Typical candidates for this course are maintenance and warehouse staff working in Cold stores or with plant using R717 as well as emergency response team members.&lt;/p&gt;</value>
   </data>
   <data name="REFRIG_AMMONIA_TITLE" xml:space="preserve">
-    <value>&lt;h1&gt;R717 Ammonia Safety Workshop(1 Day)&lt;/h1&gt;</value>
+    <value>&lt;h1&gt;R717 Ammonia Safety Workshop (1 Day)&lt;/h1&gt;</value>
   </data>
   <data name="REFRIG_INTRO_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;When you enrol on our Basic Refrigeration &amp; Air Conditioning program at ECAC, you will receive the training necessary to begin understanding the operation and function of the major components of the system and how to carry out basic maintenance and fault finding. &lt;p&gt;
-&lt;p&gt;The course is designed for tradesmen and technicians who’s duties put them in contact with refrigeration and HVAC plant.
-&lt;/p&gt;
-&lt;p&gt;The course will covers a wide variety of topics selected to ensure that participants will gain knowledge on a wide variety of systems.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;To learn more about this course email or call us today!&lt;/b&gt;&lt;/p&gt;</value>
+    <value>&lt;p&gt;When you enrol on a Basic Refrigeration &amp; Air Conditioning program at ECAC, you will receive the training and knowledge necessary to understand the operation and function of the major components of the system and how to carry out basic maintenance and fault finding.&lt;/p&gt;
+&lt;p&gt;The course is designed for tradesmen and technicians whose duties put them in contact with refrigeration and HVAC plant.&lt;/p&gt;
+&lt;p&gt;The course will covers a wide variety of topics selected to ensure that participants will gain knowledge on a wide variety of systems.&lt;/p&gt;</value>
   </data>
   <data name="REFRIG_INTRO_TITLE" xml:space="preserve">
-    <value>&lt;h1&gt;Introduction to Refrigeration&lt;/h1&gt;</value>
+    <value>&lt;h1&gt;Introduction to Refrigeration (3 Days)&lt;/h1&gt;</value>
   </data>
   <data name="REFRIG_LIQUID_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;Designed for candidates working with Industrial refrigeration systems but without any formal training in this area but have a good working knowledge or have completed an Introduction to Refrigeration training program. Liquid overfeed systems are typically used in the Food processing, Brewing and Pharmaceuticals industries and in Ireland typically uses Ammonia as a refrigerant.
-The course covers all of the major components, systems and operations including evaporative condensers and cooling towers.&lt;p&gt;</value>
+    <value>&lt;p&gt;Designed for candidates working with Industrial refrigeration systems but without any formal training in this area but have a good working knowledge or have completed an Introduction to Refrigeration training program&lt;/p&gt;
+&lt;p&gt;
+Liquid overfeed systems are typically used in the Food processing, Brewing and Pharmaceuticals industries and in Ireland typically use Ammonia as a refrigerant.
+The course covers all of the major components, systems and operations including evaporative condensers and cooling towers. &lt;/p&gt;</value>
   </data>
   <data name="REFRIG_LIQUID_TITLE" xml:space="preserve">
-    <value>&lt;h1&gt;Liquid Overfeed Systems (3 Days)&lt;/h1&gt;</value>
+    <value>&lt;h1&gt; Liquid Overfeed Systems (3 Day)&lt;/h1&gt;</value>
   </data>
 </root>
