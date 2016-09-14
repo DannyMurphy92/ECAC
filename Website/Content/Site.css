@@ -115,6 +115,11 @@ body{
     overflow:auto;
 }
 
+body {
+    
+    background-color: #fafafa;
+}
+
 #wrapper {
     min-height: 100%;
     height: auto !important;
@@ -124,16 +129,21 @@ body{
 
 
 
-.content #main, .content{
+#main, .content{
     height: 100%;
 }
-
 /*#endregion LAYOUT*/
 
 /*#region SIDEBAR*/
 
 #sidebar-lg {
     background-color: #ECECEC;
+    background: -webkit-linear-gradient(#ECECEC, #FAFAFA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ECECEC, #FAFAFA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ECECEC, #FAFAFA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ECECEC, #FAFAFA); /* Standard syntax */
+
+
     position: fixed;
     top: 0;
     bottom: 0;
@@ -193,9 +203,6 @@ body{
 #footer{
     background-color:#7693D6;
 }
-#footer-content {
-    padding: 15px;
-}
 
 #footer span, #footer p, #footer a {
     font-size: 10pt;
@@ -205,6 +212,7 @@ body{
 .footer-logo{
     height:55px;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 /*#endregion FOOTER*/
 
@@ -322,7 +330,6 @@ ul.collapseList li a{
 }
 
 ul.collapseList{
-    background-color:#EBEBEB;
     margin-left:20px
 }
 
