@@ -33,7 +33,7 @@
             </ul>
         </li>
 
-        <li>
+        <li class="link">
             <span data-toggle="collapse" data-target="#fgasList-@Model.Identifier" class="collapsed collapse-toggle sidebar-collapselist">F Gas Training </span>
             <ul class="unstyled-list collapse collapseList pad-0" id="fgasList-@Model.Identifier" data-trainingtypeId="@((int) @TrainingType.FGas)">
                 @foreach (FGas course in Enum.GetValues(typeof(FGas)))
@@ -50,8 +50,8 @@
                 <a href="@Url.Action("Service", "Training", new {id = (int)course})">@EnumExtensions.GetDisplayName(course)</a>
             </li>
         }
-        <li>
-            <a class="link" href="@Url.Action("About", "Home")">Meet the Team</a>
+        <li class="link">
+            <a href="@Url.Action("About", "Home")">Meet the Team</a>
         </li>
     </ul>
 </div>
