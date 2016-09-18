@@ -303,11 +303,11 @@ li a, li a:visited, li a:link{
 }
 
 li.active {
-    background-color: #FFD47F;
+    background-color: #D1D1D1;
 }
 
 ul.collapseList li:hover, u.collapseList li.active:hover {
-    background-color: #FFD47F;
+    background-color: #D1D1D1;
     text-decoration: none;
 }
 
