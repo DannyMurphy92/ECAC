@@ -206,7 +206,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
-    <Content Include="Content\Images\city-and-guilds-logo.jpg" />
     <Content Include="Content\Images\city-and-guilds-logo.svg" />
     <Content Include="Content\Images\favicon\android-icon-144x144.png" />
     <Content Include="Content\Images\favicon\android-icon-192x192.png" />
@@ -234,9 +233,7 @@
     <Content Include="Content\Images\favicon\ms-icon-150x150.png" />
     <Content Include="Content\Images\favicon\ms-icon-310x310.png" />
     <Content Include="Content\Images\favicon\ms-icon-70x70.png" />
-    <Content Include="Content\Images\header-logo.png" />
     <Content Include="Content\Images\header-logo.svg" />
-    <Content Include="Content\Images\homepage-banner.jpg" />
     <Content Include="Content\Images\jQueryUI\ui-icons_444444_256x240.png" />
     <Content Include="Content\Images\jQueryUI\ui-icons_555555_256x240.png" />
     <Content Include="Content\Images\jQueryUI\ui-icons_777620_256x240.png" />
@@ -262,7 +259,7 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\Images\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

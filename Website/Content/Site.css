@@ -306,7 +306,7 @@ li.active {
     background-color: #D1D1D1;
 }
 
-ul.collapseList li:hover, u.collapseList li.active:hover {
+li.link:hover{
     background-color: #D1D1D1;
     text-decoration: none;
 }
@@ -344,6 +344,15 @@ ul.collapseList li {
     font-size: 12pt;
 }
 
+img.headshot {
+    width: 100px;
+}
+
+.bio-header {
+    margin-bottom: 15px;
+}
+
+
 /*#endregion ELEMENTS*/
 
 
@@ -372,6 +381,9 @@ ul.collapseList li {
 }
 .pad-b-20{
     padding-bottom:20px;
+}
+.mar-r-15 {
+    margin-right: 15px;
 }
 .mar-b-0 {
     margin-bottom: 0;
