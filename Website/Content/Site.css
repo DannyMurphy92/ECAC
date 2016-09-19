@@ -306,9 +306,10 @@ li.active {
     background-color: #D1D1D1;
 }
 
-li.link:hover{
+a.action:hover, span.action:hover{
     background-color: #D1D1D1;
     text-decoration: none;
+    cursor: pointer;
 }
 
 ul.collapseList li a{
@@ -345,7 +346,7 @@ ul.collapseList li {
 }
 
 img.headshot {
-    width: 100px;
+    height: 100px;
 }
 
 .bio-header {

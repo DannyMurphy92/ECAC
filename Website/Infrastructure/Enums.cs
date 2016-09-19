@@ -51,11 +51,11 @@ namespace Website.Infrastructure
 
     public enum Service
     {
-        [Display(Name = "Bespoke Training Design")]
+        [Display(Name = "Tailored Training Design")]
         Bespoke = 1,
-        [Display(Name = "Employability Training Services")]
+        [Display(Name = "Career Services")]
         Employability = 2,
-        [Display(Name = "Technical Translation Services")]
+        [Display(Name = "Translation Services")]
         Technical = 3
     }
 }
