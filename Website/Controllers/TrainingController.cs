@@ -75,10 +75,8 @@ namespace Website.Controllers
                                 }
                             case (int)HVAC.Advanced:
                                 {
-                                    break;
-                                }
-                            case (int)HVAC.ChilledWater:
-                                {
+                                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.ADVANCED_HVAC_TITLE);
+                                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.ADVANCED_HVAC_CONTENT);
                                     break;
                                 }
                         }
@@ -96,13 +94,29 @@ namespace Website.Controllers
                                 break;
                             }
                             case (int)FGas.Cat1:
+                            {
+                                title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT1_TITLE);
+                                content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT1_CONTENT);
+                                break;
+                                }
+                            case (int)FGas.Cat2:
                                 {
+                                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT2_TITLE);
+                                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT2_CONTENT);
+                                    break;
+                                }
+                            case (int)FGas.Cat3:
+                                {
+                                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT3_TITLE);
+                                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT3_CONTENT);
                                     break;
                                 }
                             case (int)FGas.Cat4:
                                 {
+                                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT4_TITLE);
+                                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT4_CONTENT);
                                     break;
-                                }
+                            }
                         }
                         break;
                     }

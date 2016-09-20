@@ -117,6 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ADVANCED_HVAC_CONTENT" xml:space="preserve">
+    <value>&lt;p&gt;For candidates who have completed our Introduction to HVAC systems course we offer a more advanced program. We will build on your existing knowledge and experience to develop your fault finding and maintenance skills.&lt;/p&gt;
+&lt;p&gt;
+Topics covered include HVAC Design, heating and ventilation loads, psychrometrics, Absorbtion systems, VRF Systems, principles of Chillers, maintenance, energy efficiency, humidity control and legislation. &lt;/p&gt;</value>
+  </data>
+  <data name="ADVANCED_HVAC_TITLE" xml:space="preserve">
+    <value>&lt;h1&gt;Advanced H.V.A.C. and Process Cooling Systems&lt;/h1&gt;</value>
+  </data>
   <data name="BESPOKE_SERVICES_CONTENT" xml:space="preserve">
     <value>&lt;p&gt;Every refrigeration or air-conditioning system is different. Here at ECAC we understand that an off the shelf course will not suit everybody’s requirements and therefore we will design and deliver training to suit your unique requirements.
 &lt;/p&gt;
@@ -126,8 +134,7 @@ We will visit your site to discuss your requirements and examine your refrigerat
 &lt;/p&gt;
 &lt;p&gt;
 Sometimes it is difficult to arrange training due to shift patterns. At ECAC will work around your staff availability, be that during the day, in the evening or at weekends.
-&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Contact us to arrange a site visit, we look forward to working with you.&lt;/b&gt;&lt;/p&gt;</value>
+&lt;/p&gt;</value>
   </data>
   <data name="BESPOKE_SERVICES_TITLE" xml:space="preserve">
     <value>&lt;h1&gt;Tailored Course Design and Needs Analysis&lt;/h1&gt;</value>
@@ -157,6 +164,59 @@ As part of our translation services, we can also provide you with a C.V. in Germ
   </data>
   <data name="EMPLOYABILITY_SERVICES_TITLE" xml:space="preserve">
     <value>&lt;h1&gt;Career Services&lt;/h1&gt;</value>
+  </data>
+  <data name="FGAS_CAT1_CONTENT" xml:space="preserve">
+    <value>&lt;p&gt;
+The purpose of this qualification is to certify that successful candidates are competent to carry out leak checking, recovery, installation, service and maintenance of stationary refrigeration, air conditioning and heat-pump equipment that contains refrigerants which are classified as either fluorinated (F) gases or ozone depleting substances (ODS) regardless of the quantity of refrigerant.	
+&lt;/p&gt;
+&lt;p&gt;
+This level is generally required by technicians and engineers working on commercial refrigeration and heat pump systems. The course and assessment assume that the candidate has a high level of prior knowledge and experience on refrigeration and heat pump systems.
+&lt;/p&gt;
+&lt;p&gt;
+The assessment consists of an online assessment which will assess both the technical and Legislative knowledge of the candidate and a practical assessment covering brazing, strength testing, leak checking, charging, commissioning and recovering refrigerant and oil.
+&lt;/p&gt;</value>
+  </data>
+  <data name="FGAS_CAT1_TITLE" xml:space="preserve">
+    <value>&lt;h1&gt;City &amp; Guilds 2079 Category 1&lt;/h1&gt;</value>
+  </data>
+  <data name="FGAS_CAT2_CONTENT" xml:space="preserve">
+    <value>&lt;p&gt;
+The purpose of this qualification is to certify that successful candidates are competent to carry out leak checking, recovery, installation, service and maintenance of stationary refrigeration, air conditioning and heat-pump equipment that contains refrigerants which are classified as either fluorinated (F) gases or ozone depleting substances (ODS) containing less than 5 tons CO2 equivalent of an F gas refrigerant. The quantity of refrigerant varies depending on the global warming potential (GWP) of the refrigerant.	
+&lt;/p&gt;
+&lt;p&gt;
+This level is generally required by technicians and engineers working on domestic refrigerators and AC units and small commercial systems.
+&lt;/p&gt;
+&lt;p&gt;
+The assessment consists of an online assessment which will assess both the technical and Legislative knowledge of the candidate and a practical assessment covering brazing, strength testing, leak checking, charging, commissioning and recovering refrigerant and oil.
+&lt;/p&gt;</value>
+  </data>
+  <data name="FGAS_CAT2_TITLE" xml:space="preserve">
+    <value>&lt;h1&gt;City &amp; Guilds 2079 Category 2&lt;/h1&gt;</value>
+  </data>
+  <data name="FGAS_CAT3_CONTENT" xml:space="preserve">
+    <value>&lt;p&gt;
+The purpose of this qualification is to certify that successful candidates are competent to carry out recovery on stationary refrigeration, air conditioning and heat-pump equipment that contains refrigerants which are classified as either fluorinated (F) gases or ozone depleting substances (ODS) containing less than 5 tons CO2 equivalent of an F gas refrigerant. The quantity of refrigerant varies depending on the global warming potential (GWP) of the refrigerant.
+&lt;/p&gt;
+&lt;p&gt;
+This level is generally required by technicians operating in recycling centres.
+&lt;/p&gt;
+&lt;p&gt;
+The assessment consists of an online assessment which will assess both the technical and Legislative knowledge of the candidate and a practical assessment.
+&lt;/p&gt;</value>
+  </data>
+  <data name="FGAS_CAT3_TITLE" xml:space="preserve">
+    <value>&lt;h1&gt;City &amp; Guilds 2079 Category 3&lt;/h1&gt;</value>
+  </data>
+  <data name="FGAS_CAT4_CONTENT" xml:space="preserve">
+    <value>&lt;p&gt;
+The purpose of this qualification is to certify that successful candidates are competent to carry out non-intrusive leak checking, of stationary refrigeration, air conditioning and heat-pump equipment that contains refrigerants which are classified as either fluorinated (F) gases or ozone depleting substances (ODS) This level is generally required by technicians and engineers who wish to record leak checks.
+&lt;/p&gt;
+&lt;p&gt;
+The assessment consists of an online assessment which will assess both the technical and Legislative knowledge of the candidate and a practical assessment covering leak checking.  
+&lt;/p&gt;</value>
+  </data>
+  <data name="FGAS_CAT4_TITLE" xml:space="preserve">
+    <value>&lt;h1&gt;City &amp; Guilds 2079 Category 4&lt;/h1&gt;</value>
   </data>
   <data name="FGAS_OVERVIEW_CONTENT" xml:space="preserve">
     <value>&lt;p&gt;ECAC offers the full range of City &amp; Guilds 2079 F Gas training and certification. We are the main provider of these qualifications in the Irish market and have been offering City &amp; Guilds qualifications for over 10 years
@@ -201,7 +261,7 @@ Typical candidates for this course are maintenance and warehouse staff working i
     <value>&lt;h1&gt;Introduction to Refrigeration (3 Days)&lt;/h1&gt;</value>
   </data>
   <data name="REFRIG_LIQUID_CONTENT" xml:space="preserve">
-    <value>&lt;p&gt;Designed for candidates working with Industrial refrigeration systems but without any formal training in this area but have a good working knowledge or have completed an Introduction to Refrigeration training program&lt;/p&gt;
+    <value>&lt;p&gt;Designed for candidates working with Industrial refrigeration systems but without any formal training in this area but have a good working knowledge or have completed an Introduction to Refrigeration training program.&lt;/p&gt;
 &lt;p&gt;
 Liquid overfeed systems are typically used in the Food processing, Brewing and Pharmaceuticals industries and in Ireland typically use Ammonia as a refrigerant.
 The course covers all of the major components, systems and operations including evaporative condensers and cooling towers. &lt;/p&gt;</value>

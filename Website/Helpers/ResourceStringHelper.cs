@@ -1,5 +1,7 @@
-﻿using System.Reflection;
+﻿using System.Configuration;
+using System.Reflection;
 using System.Resources;
+using Website.Infrastructure;
 
 namespace Website.Helpers
 {
@@ -8,7 +10,8 @@ namespace Website.Helpers
         public static string GetResourceString(string key)
         {
             var result = "";
-            var rm = new ResourceManager("Website.Resources.Content", Assembly.GetExecutingAssembly());
+            var resourceFile = ConfigurationManager.AppSettings[Constants.AppSettingKeys.ResourceFile];
+            var rm = new ResourceManager(resourceFile, Assembly.GetExecutingAssembly());
             result = rm.GetString(key);
 
             return result;

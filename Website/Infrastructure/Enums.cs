@@ -29,10 +29,8 @@ namespace Website.Infrastructure
     {
         [Display(Name = "Introduction to  HVAC Systems")]
         Intro = 1,
-        [Display(Name = "Advanced HVAC Systems")]
-        Advanced = 2,
-        [Display(Name = "Chilled Water Systems and Process Cooling")]
-        ChilledWater = 3,
+        [Display(Name = "Advanced HVAC and Process Cooling Systems")]
+        Advanced = 2
     }
 
     public enum FGas
