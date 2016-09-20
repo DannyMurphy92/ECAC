@@ -104,6 +104,7 @@
 /*#region LAYOUT*/
 *{
     font-family:'Open Sans', sans-serif;
+    color: #333333;
 }
 
 html,
@@ -117,7 +118,7 @@ body{
 
 body {
     
-    background-color: #fafafa;
+    background-color: #FAFAFA;
 }
 
 #wrapper {
@@ -195,6 +196,14 @@ body {
     position: relative;
     z-index: 10;
 }
+
+#header a,#header   a:visited {
+    color: #ECECEC
+}
+
+#header a:hover {
+    color: #ECECEC;
+}
 /*#endregion HEADER*/
 
 
@@ -214,6 +223,13 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+#footer a,#footer   a:visited {
+    color: #ECECEC
+}
+
+#footer a:hover {
+    color: #ECECEC;
+}
 /*#endregion FOOTER*/
 
 
@@ -222,11 +238,11 @@ body {
     height: 130px;
 }
 a, a:visited {
-    color: #FFCEA6;
+    color: #7693D6
 }
 
 a:hover {
-    color: #F6903C;
+    color: #7693D6;
 }
 ul li a {
   display:block;

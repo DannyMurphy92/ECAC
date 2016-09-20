@@ -43,7 +43,7 @@ namespace Website.Infrastructure
 
         public static class AppSettingKeys
         {
-            public const string ResourceFile = "Website.Resources.Content";
+            public const string ResourceFile = "ResourceFile";
         }
     }
 }

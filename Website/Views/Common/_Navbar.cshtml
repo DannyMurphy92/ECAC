@@ -1,11 +1,14 @@
 ﻿<div id="header">
+    <div class="hidden-xs col-sm-2 pull-right pad-t-10">
+        <a href="@Url.Action("Contact", "Home")">Contact Us</a>
+    </div>
     <div class="visible-xs col-xs-12">
         <div id="header-content">
             <div class="col-xs-1 pad-l-0 pad-t-10">
                 <button class="btn nav-btn" id="showSidebar"><i class="glyphicon glyphicon-menu-hamburger" data-toggle="modal" data-target="#sm-sidebar-modal"></i></button>
             </div>
             <div class="col-xs-4">
-                <a href="@Url.Action("Index", "Home")" id="logo-content"><img src="~/Content/Images/header-logo.svg" class="logo" /></a>
+                <a href="@Url.Action("Index", "Home")" id="logo-content"><img src="~/Content/Images/header-logo.svg" class="logo"/></a>
             </div>
         </div>
     </div>
