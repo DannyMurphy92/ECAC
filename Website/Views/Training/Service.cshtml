@@ -2,15 +2,7 @@
 
 @Html.HiddenFor(m => m.Id, new {id = "serviceId"})
 
-<div class="hidden-xs">
-    @Html.Raw(Model.DesktopTitle)
 
-    @Html.Raw(Model.DesktopContent)
-</div>
+@Html.Raw(Model.Content)
 
 
-<div class="visible-xs">
-    @Html.Raw(Model.MobileTitle)
-
-    @Html.Raw(Model.MobileContent)
-</div>

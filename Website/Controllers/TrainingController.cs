@@ -28,8 +28,6 @@ namespace Website.Controllers
             model.Id = courseId;
             model.TypeId = typeId;
 
-            string title = "";
-            string content = "";
             switch (typeId)
             {
                 case (int)TrainingType.Refrigeration:
@@ -38,27 +36,26 @@ namespace Website.Controllers
                     {
                         case (int) Refrigeration.Intro:
                         {
-                            title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_INTRO_TITLE);
-                            content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_INTRO_CONTENT);
+                            model.Content = Resources.Pages.REFRIG_INTRO;
                             break;
                         }
                         case (int) Refrigeration.Advanced:
                         {
-                            title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_ADVANCED_TITLE);
-                            content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_ADVANCED_CONTENT);
-                            break;
+
+                                model.Content = Resources.Pages.REFRIG_ADVANCED;
+                                break;
                         }
                         case (int)Refrigeration.Ammonia:
                         {
-                            title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_AMMONIA_TITLE);
-                            content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_AMMONIA_CONTENT);
-                            break;
+
+                                model.Content = Resources.Pages.REFRIG_AMONIA;
+                                break;
                         }
                     case (int)Refrigeration.Liquid:
                         {
-                            title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_LIQUID_TITLE);
-                            content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.REFRIG_LIQUID_CONTENT);
-                            break;
+
+                                model.Content = Resources.Pages.REFRIG_LIQUID;
+                                break;
                         }
                     }
                     break;
@@ -69,14 +66,13 @@ namespace Website.Controllers
                         {
                             case (int)HVAC.Intro:
                                 {
-                                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.HVAC_INTRO_TITLE);
-                                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.HVAC_INTRO_CONTENT);
+
+                                    model.Content = Resources.Pages.HVAC_INTRO;
                                     break;
                                 }
                             case (int)HVAC.Advanced:
                                 {
-                                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.ADVANCED_HVAC_TITLE);
-                                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.ADVANCED_HVAC_CONTENT);
+                                    model.Content = Resources.Pages.HVAC_ADVANCED;
                                     break;
                                 }
                         }
@@ -89,42 +85,39 @@ namespace Website.Controllers
                         {
                             case (int)FGas.Overview:
                             {
-                                title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_OVERVIEW_TITLE);
-                                content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_OVERVIEW_CONTENT);
-                                break;
+
+                                    model.Content = Resources.Pages.FGAS_OVERVIEW;
+                                    break;
                             }
                             case (int)FGas.Cat1:
                             {
-                                title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT1_TITLE);
-                                content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT1_CONTENT);
-                                break;
+
+                                    model.Content = Resources.Pages.FGAS_CAT1;
+                                    break;
                                 }
                             case (int)FGas.Cat2:
                                 {
-                                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT2_TITLE);
-                                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT2_CONTENT);
+
+                                    model.Content = Resources.Pages.FGAS_CAT2;
                                     break;
                                 }
                             case (int)FGas.Cat3:
                                 {
-                                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT3_TITLE);
-                                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT3_CONTENT);
+
+                                    model.Content = Resources.Pages.FGAS_CAT3;
                                     break;
                                 }
                             case (int)FGas.Cat4:
                                 {
-                                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT4_TITLE);
-                                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.FGAS_CAT4_CONTENT);
+
+                                    model.Content = Resources.Pages.FGAS_CAT4;
                                     break;
                             }
                         }
                         break;
                     }
             }
-            model.DesktopTitle = title;
-            model.MobileTitle = title;
-            model.DesktopContent = content;
-            model.MobileContent = content;
+           
             return model;
         }
 
@@ -133,28 +126,20 @@ namespace Website.Controllers
             var model = new ServiceModel();
             model.Id = id;
 
-            string title = "";
-            string content = "";
             switch (id)
             {
                 case (int)Infrastructure.Service.Bespoke:
                 {
-                    title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.BESPOKE_SERVICES_TITLE);
-                    content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.BESPOKE_SERVICES_CONTENT);
+                    model.Content = Resources.Pages.BESPOKE_SERVICES;
                     break;
                     }
-                case (int)Infrastructure.Service.Employability:
+                case (int)Infrastructure.Service.Career:
                     {
-                        title = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.EMPLOYABILITY_SERVICES_TITLE);
-                        content = ResourceStringHelper.GetResourceString(Constants.ResourceKeys.EMPLOYABILITY_SERVICES_CONTENT);
+                        model.Content = Resources.Pages.CAREER_SERVICES;
                         break;
                     }
             }
 
-            model.DesktopTitle = title;
-            model.MobileTitle = title;
-            model.DesktopContent = content;
-            model.MobileContent = content;
             return model;
 
         }

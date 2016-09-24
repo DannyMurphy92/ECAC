@@ -52,7 +52,7 @@ namespace Website.Infrastructure
         [Display(Name = "Tailored Training Design")]
         Bespoke = 1,
         [Display(Name = "Career Services")]
-        Employability = 2,
+        Career = 2,
         [Display(Name = "Translation Services")]
         Technical = 3
     }

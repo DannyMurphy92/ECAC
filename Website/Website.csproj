@@ -192,10 +192,10 @@
     <Compile Include="Models\CourseModel.cs" />
     <Compile Include="Models\SidebarMenuModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resources\Content.Designer.cs">
+    <Compile Include="Resources\Pages.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Content.resx</DependentUpon>
+      <DependentUpon>Pages.resx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -254,6 +254,19 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Resources\Pages\FGAS_CAT2.html" />
+    <Content Include="Resources\Pages\FGAS_OVERVIEW.html" />
+    <Content Include="Resources\Pages\FGAS_CAT4.html" />
+    <Content Include="Resources\Pages\FGAS_CAT3.html" />
+    <Content Include="Resources\Pages\FGAS_CAT1.html" />
+    <Content Include="Resources\Pages\CAREER_SERVICES.html" />
+    <Content Include="Resources\Pages\BESPOKE_SERVICES.html" />
+    <Content Include="Resources\Pages\REFRIG_LIQUID.html" />
+    <Content Include="Resources\Pages\REFRIG_INTRO.html" />
+    <Content Include="Resources\Pages\REFRIG_AMONIA.html" />
+    <Content Include="Resources\Pages\REFRIG_ADVANCED.html" />
+    <Content Include="Resources\Pages\HVAC_INTRO.html" />
+    <Content Include="Resources\Pages\HVAC_ADVANCED.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\Images\favicon\manifest.json" />
@@ -317,9 +330,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Content.resx">
+    <EmbeddedResource Include="Resources\Pages.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Content1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Pages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

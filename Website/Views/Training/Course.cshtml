@@ -3,16 +3,5 @@
 @Html.HiddenFor(m => m.TypeId, new {id="typeId"})
 @Html.HiddenFor(m => m.Id, new { id = "courseId" })
 
-<div class="hidden-xs">
-    @Html.Raw(Model.DesktopTitle)
-
-    @Html.Raw(Model.DesktopContent)
-</div>
-
-
-<div class="visible-xs">
-    @Html.Raw(Model.MobileTitle)
-
-    @Html.Raw(Model.MobileContent)
-</div>
+@Html.Raw(Model.Content)
 
