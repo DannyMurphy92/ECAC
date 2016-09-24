@@ -1,5 +1,4 @@
 ﻿using System.Web.Mvc;
-using Website.Helpers;
 using Website.Infrastructure;
 using Website.Models;
 
@@ -85,10 +84,14 @@ namespace Website.Controllers
                         {
                             case (int)FGas.Overview:
                             {
-
-                                    model.Content = Resources.Pages.FGAS_OVERVIEW;
-                                    break;
+                                model.Content = Resources.Pages.FGAS_OVERVIEW;
+                                break;
                             }
+                            case (int)FGas.Intensive:
+                                {
+                                    model.Content = Resources.Pages.FGAS_INTENSIVE;
+                                    break;
+                                }
                             case (int)FGas.Cat1:
                             {
 

@@ -63,11 +63,13 @@ namespace Website.Resources {
         /// <summary>
         ///   Looks up a localized string similar to &lt;h1&gt;Tailored Course Design and Needs Analysis&lt;/h1&gt;
         ///&lt;p&gt;
-        ///    Every refrigeration or air-conditioning system is different. Here at ECAC we understand that an off the shelf course will not suit everybody’s requirements and therefore we will design and deliver training to suit your unique requirements.
+        ///    Every refrigeration or air-conditioning system is different. Here at ECAC, we understand that an “off the shelf” 
+        ///    course will not suit everybody’s requirements.  Therefore, we will design and deliver training to suit your unique requirements. 
         ///&lt;/p&gt;
         ///
         ///&lt;p&gt;
-        ///    We will visit your site to discuss your requirements and examine your refrigeration or Air-conditioning equipment. We will produce a first draft training outline which will be issued to you for [rest of string was truncated]&quot;;.
+        ///    We will visit your site to discuss your requirements and examine your refrigeration or air-conditioning equipment.
+        ///    We will produce a first draft training outline, which will be is [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string BESPOKE_SERVICES {
             get {
@@ -78,10 +80,13 @@ namespace Website.Resources {
         /// <summary>
         ///   Looks up a localized string similar to &lt;h1&gt;Career Services&lt;/h1&gt;
         ///&lt;p&gt;
-        ///    ECAC has a reputation for innovation and responsiveness to the requirements of Industry and the employees of Industry. We are aware that the days of a ‘job for life’ are a thing of the past and whether it be through choice or circumstances many people will change their job or employer many times over their lifetime.
+        ///    ECAC has a reputation for innovation and responsiveness to the requirements of industry and the employees of industry.
+        ///    We are aware that the days of a ‘job for life’ are a thing of the past. Whether it be through choice or circumstances, 
+        ///    many people will change their job or employer many times over their lifetime. 
         ///&lt;/p&gt;
         ///&lt;p&gt;
-        ///    We have developed a range of services designed to meet the requirements of our clients who are dealing with a career change or are in the proce [rest of string was truncated]&quot;;.
+        ///    We have developed a range of services designed to meet the requirements of our clients who are dealing with a career
+        ///    change or a [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string CAREER_SERVICES {
             get {
@@ -90,12 +95,16 @@ namespace Website.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 Category 1&lt;/h1&gt;
+        ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 Category 1 (1 Day)&lt;/h1&gt;
         ///&lt;p&gt;
-        ///    The purpose of this qualification is to certify that successful candidates are competent to carry out leak checking, recovery, installation, service and maintenance of stationary refrigeration, air conditioning and heat-pump equipment that contains refrigerants which are classified as either fluorinated (F) gases or ozone depleting substances (ODS) regardless of the quantity of refrigerant.
+        ///    The purpose of this qualification is to certify that successful candidates are competent to carry out
+        ///    leak checking, recovery, installation, service and maintenance of stationary refrigeration, air
+        ///    conditioning and heat-pump equipment that contains refrigerants which are classified as either fluorinated 
+        ///    (F) gases or ozone depleting substances (ODS) regardless of the quantity of refrigerant.
+        ///
         ///&lt;/p&gt;
         ///&lt;p&gt;
-        ///    This level is generally required by technicians and e [rest of string was truncated]&quot;;.
+        ///    This level is generally req [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string FGAS_CAT1 {
             get {
@@ -104,9 +113,12 @@ namespace Website.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 Category 2&lt;/h1&gt;
+        ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 Category 2 (1 Day)&lt;/h1&gt;
         ///&lt;p&gt;
-        ///    The purpose of this qualification is to certify that successful candidates are competent to carry out leak checking, recovery, installation, service and maintenance of stationary refrigeration, air conditioning and heat-pump equipment that contains refrigerants which are classified as either fluorinated (F) gases or ozone depleting substances (ODS) containing less than 5 tons CO2 equivalent of an F gas refrigerant. The quantity of refrigerant varies depending [rest of string was truncated]&quot;;.
+        ///    The purpose of this qualification is to certify that successful candidates are competent to carry out leak checking,
+        ///    recovery, installation, service and maintenance of stationary refrigeration, air conditioning and heat-pump equipment
+        ///    that contains refrigerants, which are classified as either fluorinated (F) gases or ozone depleting substances (ODS)
+        ///    containing less than 5 tons CO2 equivalent of an F-gas refrigerant. The quantity of refr [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string FGAS_CAT2 {
             get {
@@ -115,9 +127,13 @@ namespace Website.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 Category 3&lt;/h1&gt;
+        ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 Category 3 (1 Day)&lt;/h1&gt;
         ///&lt;p&gt;
-        ///    The purpose of this qualification is to certify that successful candidates are competent to carry out recovery on stationary refrigeration, air conditioning and heat-pump equipment that contains refrigerants which are classified as either fluorinated (F) gases or ozone depleting substances (ODS) containing less than 5 tons CO2 equivalent of an F gas refrigerant. The quantity of refrigerant varies depending on the global warming potential (GWP) of the refriger [rest of string was truncated]&quot;;.
+        ///    The purpose of this qualification is to certify that successful candidates are competent to carry out recovery
+        ///    on stationary refrigeration, air conditioning and heat-pump equipment that contains refrigerants which are
+        ///    classified as either fluorinated (F) gases or ozone depleting substances (ODS) containing less than 5 tons
+        ///    CO2 equivalent of an F gas refrigerant. The quantity of refrigerant varies depending on the global warming 
+        ///    po [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string FGAS_CAT3 {
             get {
@@ -126,12 +142,15 @@ namespace Website.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 Category 4&lt;/h1&gt;
+        ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 Category 4 (1 Day)&lt;/h1&gt;
         ///&lt;p&gt;
-        ///    The purpose of this qualification is to certify that successful candidates are competent to carry out non-intrusive leak checking, of stationary refrigeration, air conditioning and heat-pump equipment that contains refrigerants which are classified as either fluorinated (F) gases or ozone depleting substances (ODS) This level is generally required by technicians and engineers who wish to record leak checks.
+        ///    The purpose of this qualification is to certify that successful candidates are competent to carry out non-intrusive leak
+        ///    checking of, stationary refrigeration, air conditioning and heat-pump equipment that contains refrigerants which
+        ///    are classified as either fluorinated (F) gases or ozone depleting substances (ODS).
         ///&lt;/p&gt;
         ///&lt;p&gt;
-        ///    The assessment consists of an online [rest of string was truncated]&quot;;.
+        ///    This level is generally required by technicians and engineers who are required or wish to record leak checks.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string FGAS_CAT4 {
             get {
@@ -140,10 +159,31 @@ namespace Website.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;h1&gt;Intensive F-Gas (5 Days)&lt;/h1&gt;
+        ///&lt;p&gt;
+        ///    This course is aimed at technicians dealing with refrigeration and air-conditioning equipment on a regular basis but due
+        ///    to the nature of their work, do not have exposure to all of the elements necessary to complete the City &amp; Guilds 2079
+        ///    F-Gas assessment.
+        ///&lt;/p&gt;
+        ///&lt;p&gt;
+        ///    The training is a blend of theory, practical and sample assessments over four days, followed by the Fgas assessment on day five.
+        ///&lt;/p&gt;
+        ///&lt;p&gt;
+        ///    Candidates will be provided with full co [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string FGAS_INTENSIVE {
+            get {
+                return ResourceManager.GetString("FGAS_INTENSIVE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 (F Gas) Qalifications&lt;/h1&gt;
         ///&lt;p&gt;
-        ///    ECAC offers the full range of City &amp; Guilds 2079 F Gas training and certification. We are the main provider of these qualifications in the Irish market and have been offering City &amp; Guilds qualifications for over 10 years
-        ///    There are four categories in F Gas, from category 4 which allows candidates to leak test systems through to category 1 which qualifies technicians to undertake leak checking, recovery, installation, service and maintenance of [rest of string was truncated]&quot;;.
+        ///    ECAC offers the full range of City &amp; Guilds 2079 F Gas training and certification. We are the main provider of
+        ///    these qualifications in the Irish market, and have been offering City &amp; Guilds qualifications for over 10 years.
+        ///    There are four categories in F Gas, from category 4, which allows candidates to leak test systems, to category 1,
+        ///    which qualifies technicians to undertake leak checking, recovery, installation, service and mainten [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string FGAS_OVERVIEW {
             get {
@@ -152,11 +192,15 @@ namespace Website.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h1&gt;Advanced H.V.A.C. and Process Cooling Systems&lt;/h1&gt;
+        ///   Looks up a localized string similar to &lt;h1&gt;Advanced H.V.A.C. and Process Cooling Systems (3 Days)&lt;/h1&gt;
         ///
-        ///&lt;p&gt;For candidates who have completed our Introduction to HVAC systems course we offer a more advanced program. We will build on your existing knowledge and experience to develop your fault finding and maintenance skills.&lt;/p&gt;
         ///&lt;p&gt;
-        ///Topics covered include HVAC Design, heating and ventilation loads, psychrometrics, Absorbtion systems, VRF Systems, principles of Chillers, maintenance, energy efficiency, humidity control and legislation. &lt;/p&gt;.
+        ///    For candidates who have completed our Introduction to HVAC systems course, we offer a more advanced program. 
+        ///    We will build on your existing knowledge and experience to develop your fault finding and maintenance skills.
+        ///&lt;/p&gt;
+        ///&lt;p&gt;
+        ///    Topics covered include HVAC Design, heating and ventilation loads, psychrometrics, absorption systems, VRF Systems, 
+        ///    principles of chillers, maintenance, energy efficiency, humidity control  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HVAC_ADVANCED {
             get {
@@ -165,10 +209,14 @@ namespace Website.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h1&gt;Introduction to HVAC Systems (3 Day)&lt;/h1&gt;
-        ///&lt;p&gt;HVAC (Heating, Ventilation &amp; Air Conditioning) systems are a part of most commercial or Industrial buildings. Whether it is designed to provide a comfortable environment for staff or as a requirement for a manufacturing process its correct maintenance is vital in order to keep productivity and quality levels to an acceptable level.
+        ///   Looks up a localized string similar to &lt;h1&gt;Introduction to HVAC Systems (3 Days)&lt;/h1&gt;
         ///&lt;p&gt;
-        ///&lt;p&gt;This course is designed to give your maintenance and facilities staff an insight into the operation of HVAC systems and [rest of string was truncated]&quot;;.
+        ///HVAC (Heating, Ventilation &amp; Air Conditioning) systems are a part of most commercial or industrial buildings.
+        ///Whether it is designed to provide a comfortable environment for staff or as a requirement for a manufacturing process, 
+        ///    its correct maintenance is vital in order to keep productivity and quality levels at an acceptable level.
+        ///&lt;p&gt;
+        ///&lt;p&gt;
+        ///    This course is designed to give your maintenance and facilities staff an insight into the operation of [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HVAC_INTRO {
             get {
@@ -178,9 +226,13 @@ namespace Website.Resources {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;h1&gt; Advanced Refrigeration Maintenance and Fault finding (3 Days)&lt;/h1&gt;
-        ///&lt;p&gt;For candidates who have completed our Introduction to Refrigeration course we offer a more advanced program. We will build on your existing knowledge and experience to develop your fault finding and maintenance skills. &lt;/p&gt;
         ///&lt;p&gt;
-        ///    This course includes an opportunity for candidates to install, commission and decommission a working vapour compression system under supervision and takes an in depth look at a variety of vapour compres [rest of string was truncated]&quot;;.
+        ///    For candidates who have completed our Introduction to Refrigeration course, we offer a more advanced program.
+        ///    We will build on your existing knowledge and experience to develop your fault finding and maintenance skills.
+        ///&lt;/p&gt;
+        ///&lt;p&gt;
+        ///    This course includes an opportunity for candidates to install, commission and decommission a working vapour compression
+        ///    system under supervision and takes an in depth look at a variety [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string REFRIG_ADVANCED {
             get {
@@ -190,9 +242,14 @@ namespace Website.Resources {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;h1&gt;R717 Ammonia Safety Workshop (1 Day)&lt;/h1&gt;
-        ///&lt;p&gt;Our one day on site toolbox talk on R717 (Anhydrous Ammonia) safety course is designed for all personnel who may come into contact with Anhydrous Ammonia refrigerant in the work place. It is designed to make all participants aware of the risks and safety procedures involved in handling R717. &lt;/p&gt;
         ///&lt;p&gt;
-        ///    Typical candidates for this course are maintenance and warehouse staff working in Cold stores or with plant using R717 as well as emergency response team  [rest of string was truncated]&quot;;.
+        ///    Our one day, on-site toolbox talk on R717 (anhydrous ammonia) safety course is designed for all personnel who
+        ///    may come into contact with anhydrous ammonia refrigerant in the workplace. It is designed to make all participants 
+        ///    aware of the risks and safety procedures involved in handling R717.
+        ///&lt;/p&gt;
+        ///&lt;p&gt;
+        ///    Typical candidates for this course are maintenance and warehouse staff working in cold stores or with plants using R717, 
+        ///    as well a [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string REFRIG_AMONIA {
             get {
@@ -203,14 +260,14 @@ namespace Website.Resources {
         /// <summary>
         ///   Looks up a localized string similar to &lt;h1&gt;Introduction to Refrigeration (3 Days)&lt;/h1&gt;
         ///&lt;p&gt;
-        ///    When you enrol on a Basic Refrigeration &amp; Air Conditioning program at ECAC, you will receive the training and knowledge necessary to
+        ///    When you enroll on a Basic Refrigeration &amp; Air Conditioning program at ECAC, you will receive the training and knowledge necessary to
         ///     understand the operation and function of the major components of the system and how to carry out basic maintenance and fault finding.
         ///&lt;/p&gt;
         ///&lt;p&gt;
-        ///    The course is designed for tradesmen and technicians whose duties put them in contact with refrigeration and HVAC plant.
+        ///    The course is designed for tradesmen and technicians whose duties put them in contact with refrigeration and HVAC plants.
         ///&lt;/p&gt;
         ///&lt;p&gt;
-        ///    The course will covers a wid [rest of string was truncated]&quot;;.
+        ///    The course will cover a wi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string REFRIG_INTRO {
             get {
@@ -219,11 +276,15 @@ namespace Website.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h1&gt; Liquid Overfeed Systems (3 Day)&lt;/h1&gt;
-        ///&lt;p&gt;Designed for candidates working with Industrial refrigeration systems but without any formal training in this area but have a good working knowledge or have completed an Introduction to Refrigeration training program.&lt;/p&gt;
+        ///   Looks up a localized string similar to &lt;h1&gt; Liquid Overfeed Systems (3 Days)&lt;/h1&gt;
         ///&lt;p&gt;
-        ///    Liquid overfeed systems are typically used in the Food processing, Brewing and Pharmaceuticals industries and in Ireland typically use Ammonia as a refrigerant.
-        ///    The course covers all of the major components, systems and operation [rest of string was truncated]&quot;;.
+        ///    This course is designed for candidates with little or no formal training working with industrial refrigeration systems, 
+        ///    but have a good working knowledge or have completed an Introduction to Refrigeration training program.
+        ///
+        ///&lt;/p&gt;
+        ///&lt;p&gt;
+        ///    Liquid overfeed systems are typically used in Ireland in the food processing, brewing and pharmaceuticals industries and
+        ///    typically use Ammonia as a refrigerant. The course covers all of the major components, [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string REFRIG_LIQUID {
             get {

@@ -136,6 +136,9 @@
   <data name="FGAS_CAT4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Pages\FGAS_CAT4.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="FGAS_INTENSIVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Pages\FGAS_INTENSIVE.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="FGAS_OVERVIEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Pages\FGAS_OVERVIEW.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>

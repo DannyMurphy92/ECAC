@@ -35,16 +35,18 @@ namespace Website.Infrastructure
 
     public enum FGas
     {
-        [Display(Name = "Overview of F Gas")]
+        [Display(Name = "Overview of F-Gas")]
         Overview = 1,
-        [Display(Name = "F Gas Category 1 Training")]
-        Cat1 = 2,
-        [Display(Name = "F Gas Category 2 Training")]
-        Cat2 = 3,
-        [Display(Name = "F Gas Category 3 Training")]
-        Cat3 = 4,
-        [Display(Name = "F Gas Category 4 Training")]
-        Cat4 = 5,
+        [Display(Name = "Intensive F-Gas")]
+        Intensive = 2,
+        [Display(Name = "F-Gas Category 1")]
+        Cat1 = 3,
+        [Display(Name = "F-Gas Category 2")]
+        Cat2 = 4,
+        [Display(Name = "F-Gas Category 3")]
+        Cat3 = 5,
+        [Display(Name = "F-Gas Category 4")]
+        Cat4 = 6,
     }
 
     public enum Service

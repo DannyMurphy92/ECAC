@@ -185,9 +185,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Infrastructure\Constants.cs" />
     <Compile Include="Infrastructure\Enums.cs" />
-    <Compile Include="Helpers\ResourceStringHelper.cs" />
     <Compile Include="Models\ServiceModel.cs" />
     <Compile Include="Models\CourseModel.cs" />
     <Compile Include="Models\SidebarMenuModel.cs" />
@@ -261,6 +259,7 @@
     <Content Include="Resources\Pages\FGAS_CAT1.html" />
     <Content Include="Resources\Pages\CAREER_SERVICES.html" />
     <Content Include="Resources\Pages\BESPOKE_SERVICES.html" />
+    <Content Include="Resources\Pages\FGAS_INTENSIVE.html" />
     <Content Include="Resources\Pages\REFRIG_LIQUID.html" />
     <Content Include="Resources\Pages\REFRIG_INTRO.html" />
     <Content Include="Resources\Pages\REFRIG_AMONIA.html" />
