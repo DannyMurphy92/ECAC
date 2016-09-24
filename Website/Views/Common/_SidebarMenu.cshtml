@@ -6,8 +6,8 @@
 
 <div class="sidebar-menu">
     <ul class="unstyled-list spaced-list">
-        <li>
-            <a class="action" href="@Url.Action("Index", "Home")">Home</a>
+        <li class="action">
+            <a href="@Url.Action("Index", "Home")">Home</a>
         </li>
         <li>
             <span data-toggle="collapse" data-target="#refrigeList-@Model.Identifier" class="action collapsed collapse-toggle sidebar-collapselist">Refrigeration Training </span>
@@ -26,8 +26,8 @@
             <ul class="unstyled-list collapse collapseList pad-0" id="hvacList-@Model.Identifier" data-trainingtypeId="@((int) @TrainingType.HVAC)">
                 @foreach (HVAC course in Enum.GetValues(typeof(HVAC)))
                 {
-                    <li data-courseId="@((int) course)">
-                        <a class="action" href="@Url.Action("Course", "Training", new {typeId = (int) TrainingType.HVAC, courseId = (int) course})">@EnumExtensions.GetDisplayName(course)</a>
+                    <li  class="action" data-courseId="@((int) course)">
+                        <a href="@Url.Action("Course", "Training", new {typeId = (int) TrainingType.HVAC, courseId = (int) course})">@EnumExtensions.GetDisplayName(course)</a>
                     </li>
                 }
             </ul>
@@ -38,23 +38,23 @@
             <ul class="unstyled-list collapse collapseList pad-0" id="fgasList-@Model.Identifier" data-trainingtypeId="@((int) @TrainingType.FGas)">
                 @foreach (FGas course in Enum.GetValues(typeof(FGas)))
                 {
-                    <li  data-courseId="@((int) course)">
-                        <a class="action" href="@Url.Action("Course", "Training", new {typeId = (int) TrainingType.FGas, courseId = (int) course})">@EnumExtensions.GetDisplayName(course)</a>
+                    <li  data-courseId="@((int) course)" class="action">
+                        <a href="@Url.Action("Course", "Training", new {typeId = (int) TrainingType.FGas, courseId = (int) course})">@EnumExtensions.GetDisplayName(course)</a>
                     </li>
                 }
             </ul>
         </li>
         @foreach (Service course in Enum.GetValues(typeof(Service)))
             {
-            <li data-serviceId="@((int) course)">
-                <a class="action" href="@Url.Action("Service", "Training", new {id = (int)course})">@EnumExtensions.GetDisplayName(course)</a>
+            <li data-serviceId="@((int) course)" class="action">
+                <a href="@Url.Action("Service", "Training", new {id = (int)course})">@EnumExtensions.GetDisplayName(course)</a>
             </li>
         }
-        <li>
-            <a class="action" href="@Url.Action("About", "Home")">Meet the Team</a>
+        <li class="action">
+            <a href="@Url.Action("About", "Home")">Meet the Team</a>
         </li>
-        <li>
-            <a class="action" href="@Url.Action("Contact", "Home")">Contact Us</a>
+        <li class="action">
+            <a href="@Url.Action("Contact", "Home")">Contact Us</a>
         </li>
     </ul>
 </div>

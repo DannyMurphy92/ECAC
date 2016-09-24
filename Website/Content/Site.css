@@ -322,10 +322,15 @@ li.active {
     background-color: #D1D1D1;
 }
 
-a.action:hover, span.action:hover{
+li.action:hover, span.action:hover{
     background-color: #D1D1D1;
     text-decoration: none;
     cursor: pointer;
+}
+
+li > span.action {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 ul.collapseList li a{

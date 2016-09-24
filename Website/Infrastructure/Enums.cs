@@ -20,7 +20,7 @@ namespace Website.Infrastructure
         Advanced = 2,
         [Display(Name = "Ammonia Safety Workshop")]
         Ammonia = 3,
-        [Display(Name = "Liquid Sverfeed Systems")]
+        [Display(Name = "Liquid Overfeed Systems")]
         Liquid = 4,
 
     }
@@ -53,7 +53,7 @@ namespace Website.Infrastructure
         Bespoke = 1,
         [Display(Name = "Career Services")]
         Career = 2,
-        [Display(Name = "Translation Services")]
-        Technical = 3
+        //[Display(Name = "Translation Services")]
+        //Technical = 3
     }
 }
