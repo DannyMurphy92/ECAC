@@ -61,6 +61,23 @@ namespace Website.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;h1&gt;تدريب التبريد والتكييف في الشرق الأوسط&lt;/h1&gt;
+        ///&lt;p&gt;
+        ///    السلام عليكم ورحمة الله وبركاته
+        ///&lt;/p&gt;
+        ///&lt;p&gt;
+        ///    بعد أن عملنا في الرياض كمدربين تقنين في مجال التبريد والتكييف، نحن ندرك العديد من التحديات الفريدة التي تواجه الصناعة في منطقة الشرق الأوسط. في وضعنا في كلية المدربين التقنيين بالرياض كنا ندرب المعلمين التقنين لإعدادهم للتدريس في الكليات التقنية بالمملكة العربية السعودية.
+        ///&lt;/p&gt;
+        ///&lt;p&gt;
+        ///    خلال فترة وجودنا في الرياض روب هاو، براين ستينز وجون ميرفي طورنا نظام تدريب يهدف إلى الجمع بين المحتوى التقني ومحتوى  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ARABIC {
+            get {
+                return ResourceManager.GetString("ARABIC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;h1&gt;Tailored Course Design and Needs Analysis&lt;/h1&gt;
         ///&lt;p&gt;
         ///    Every refrigeration or air-conditioning system is different. Here at ECAC, we understand that an “off the shelf” 
@@ -178,7 +195,7 @@ namespace Website.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 (F Gas) Qalifications&lt;/h1&gt;
+        ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 (F-Gas) Qalifications&lt;/h1&gt;
         ///&lt;p&gt;
         ///    ECAC offers the full range of City &amp; Guilds 2079 F Gas training and certification. We are the main provider of
         ///    these qualifications in the Irish market, and have been offering City &amp; Guilds qualifications for over 10 years.

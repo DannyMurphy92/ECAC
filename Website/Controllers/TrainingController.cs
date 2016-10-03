@@ -133,12 +133,17 @@ namespace Website.Controllers
             {
                 case (int)Infrastructure.Service.Bespoke:
                 {
-                    model.Content = Resources.Pages.BESPOKE_SERVICES;
+                model.Content = Resources.Pages.BESPOKE_SERVICES;
+                break;
+                }
+                case (int)Infrastructure.Service.Career:
+                {
+                    model.Content = Resources.Pages.CAREER_SERVICES;
                     break;
                     }
-                case (int)Infrastructure.Service.Career:
+                case (int)Infrastructure.Service.Arabic:
                     {
-                        model.Content = Resources.Pages.CAREER_SERVICES;
+                        model.Content = Resources.Pages.ARABIC;
                         break;
                     }
             }

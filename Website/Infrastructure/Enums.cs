@@ -57,5 +57,7 @@ namespace Website.Infrastructure
         Career = 2,
         //[Display(Name = "Translation Services")]
         //Technical = 3
+        [Display(Name = "Arabic")]
+        Arabic = 4
     }
 }

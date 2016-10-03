@@ -260,6 +260,7 @@
     <Content Include="Resources\Pages\CAREER_SERVICES.html" />
     <Content Include="Resources\Pages\BESPOKE_SERVICES.html" />
     <Content Include="Resources\Pages\FGAS_INTENSIVE.html" />
+    <Content Include="Resources\Pages\ARABIC.html" />
     <Content Include="Resources\Pages\REFRIG_LIQUID.html" />
     <Content Include="Resources\Pages\REFRIG_INTRO.html" />
     <Content Include="Resources\Pages\REFRIG_AMONIA.html" />
