@@ -107,6 +107,7 @@
     <Content Include="Views\Training\Course.cshtml" />
     <Content Include="Views\Training\Service.cshtml" />
     <Content Include="Views\Web.config" />
+    <None Include="bundleconfig.json" />
     <None Include="Properties\PublishProfiles\Default.pubxml" />
     <Content Include="Views\Training\Arabic.cshtml" />
     <None Include="Web.Debug.config">

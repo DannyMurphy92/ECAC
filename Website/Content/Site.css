@@ -413,4 +413,7 @@ img.headshot {
 .mar-b-20 {
     margin-bottom: 20px;
 }
+.btn:active, .btn:focus {
+    border: 0;
+}
 /*#endregion FORMATTING*/
