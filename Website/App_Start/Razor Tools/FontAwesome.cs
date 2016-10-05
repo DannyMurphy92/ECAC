@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-[assembly: WebActivatorEx.PostApplicationStartMethod(typeof(Mvc.RazorTools.FontAwesome.App_Start), "Initialize")]
+//[assembly: WebActivatorEx.PostApplicationStartMethod(typeof(Mvc.RazorTools.FontAwesome.App_Start), "Initialize")]
 
 // ***
 // *** Add @Mvc.RazorTools.BundleManager.Styles.Render() to the top of your pages
@@ -26,7 +26,7 @@ namespace Mvc.RazorTools.FontAwesome
 			// ***
 			// *** Add styles to the Razor Tools bundle
 			// ***
-			Mvc.RazorTools.BundleManager.Styles.Include("~/Content/font-awesome.css");
+			//Mvc.RazorTools.BundleManager.Styles.Include("~/Content/font-awesome.css");
 		}
 	}
 }

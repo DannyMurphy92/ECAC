@@ -18,6 +18,11 @@ namespace Website.Controllers
             var model = GetServiceModel(id);
             return View(model);
         }
+
+        public ActionResult Arabic()
+        {
+            return View();
+        }
         #endregion
 
         #region Private Methods
@@ -140,11 +145,6 @@ namespace Website.Controllers
                 {
                     model.Content = Resources.Pages.CAREER_SERVICES;
                     break;
-                    }
-                case (int)Infrastructure.Service.Arabic:
-                    {
-                        model.Content = Resources.Pages.ARABIC;
-                        break;
                     }
             }
 

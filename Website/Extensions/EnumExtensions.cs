@@ -11,16 +11,16 @@ namespace Website.Extensions
     {
         public static string GetDisplayName(this Enum enumValue)
         {
-            string result = enumValue.GetType()
-                            .GetMember(enumValue.ToString())
-                            .First()
-                            .GetCustomAttribute<DisplayAttribute>()?
-                            .GetName();
-            if (result == null)
+            var element = enumValue.GetType()
+                .GetMember(enumValue.ToString())
+                .First();
+            var attr = (DisplayAttribute)Attribute.GetCustomAttribute(element, typeof(DisplayAttribute));
+            if (attr != null && !string.IsNullOrEmpty(attr.Name))
             {
-                return enumValue.ToString();
+                return attr.Name;
             }
-            return result;
+
+            return enumValue.ToString();
         }
     }
 }
