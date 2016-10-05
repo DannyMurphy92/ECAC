@@ -414,6 +414,8 @@ img.headshot {
     margin-bottom: 20px;
 }
 .btn:active, .btn:focus {
-    border: 0;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
 }
 /*#endregion FORMATTING*/
