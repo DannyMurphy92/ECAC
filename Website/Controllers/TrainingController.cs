@@ -120,10 +120,22 @@ namespace Website.Controllers
 
                                     model.Content = Resources.Pages.FGAS_CAT4;
                                     break;
-                            }
+                                }
                         }
-                        break;
+                    break;
                     }
+                case (int)TrainingType.CustomTraining:
+                {
+                    switch (courseId)
+                    {
+                        case (int)CustomCourse.FacilityHVAC:
+                        {
+                                model.Content = Resources.Pages.FACILITY_HVAC;
+                                break;
+                        } 
+                    }
+                    break;
+                }
             }
            
             return model;
@@ -137,14 +149,14 @@ namespace Website.Controllers
             switch (id)
             {
                 case (int)Infrastructure.Service.Bespoke:
-                {
-                model.Content = Resources.Pages.BESPOKE_SERVICES;
-                break;
-                }
+                    {
+                        model.Content = Resources.Pages.BESPOKE_SERVICES;
+                        break;
+                    }
                 case (int)Infrastructure.Service.Career:
-                {
-                    model.Content = Resources.Pages.CAREER_SERVICES;
-                    break;
+                    {
+                        model.Content = Resources.Pages.CAREER_SERVICES;
+                        break;
                     }
             }
 

@@ -95,6 +95,24 @@ namespace Website.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;h1&gt;Facilities HVAC and Cat. 4 F Gas Certification&lt;/h1&gt;
+        ///&lt;p&gt;
+        ///    Facilities engineers often have to deal with problems associated with HVAC equipment sometimes with little training.
+        ///    This course is designed to fill this knowledge gap and to offer the candidates the opportunity to gain a City &amp; 
+        ///    Guilds Category 4 F Gas certificate.
+        ///&lt;/p&gt;
+        ///
+        ///&lt;p&gt;
+        ///    As with all of our courses the training is a blend of theory and practical, with the option of tailoring the
+        ///    course to suit the equipment that is  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string FACILITY_HVAC {
+            get {
+                return ResourceManager.GetString("FACILITY_HVAC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;h1&gt;City &amp; Guilds 2079 Category 1 (1 Day)&lt;/h1&gt;
         ///&lt;p&gt;
         ///    The purpose of this qualification is to certify that successful candidates are competent to carry out

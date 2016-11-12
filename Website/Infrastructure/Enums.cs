@@ -10,7 +10,8 @@ namespace Website.Infrastructure
     {
         Refrigeration = 1,
         HVAC = 2,
-        FGas = 3
+        FGas = 3,
+        CustomTraining = 4
     }
     public enum Refrigeration
     {
@@ -47,6 +48,12 @@ namespace Website.Infrastructure
         Cat3 = 5,
         [Display(Name = "F-Gas Category 4")]
         Cat4 = 6,
+    }
+
+    public enum CustomCourse
+    {
+        [Display(Name = "Facilities HVAC and Cat. 4 F Gas Certification")]
+        FacilityHVAC = 1,
     }
 
     public enum Service

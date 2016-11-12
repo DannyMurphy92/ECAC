@@ -152,6 +152,10 @@ body {
     overflow: auto;
 }
 
+#sidebar-lg .rtl {
+    padding-right: 25px;
+}
+
 #sidebar-sm {
     background-color: #ECECEC;
     left: 0;
@@ -161,6 +165,13 @@ body {
     max-height: 500px;
     overflow: auto;
 }
+
+#sidebar-sm .rtl {
+    padding-right: 25px;
+    margin-left: -15px;
+    direction: rtl;
+}
+
 
 #sidebar-logo {
     margin-left: 40px;
@@ -394,9 +405,6 @@ img.headshot {
 }
 .pad-r-20{
     padding-right:20px;
-}
-.pad-r-25{
-    padding-right:25px;
 }
 .pad-t-10 {
      padding-top: 10px;

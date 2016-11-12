@@ -124,6 +124,9 @@
   <data name="CAREER_SERVICES" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Pages\CAREER_SERVICES.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="FACILITY_HVAC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Pages\FACILITY_HVAC.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="FGAS_CAT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Pages\FGAS_CAT1.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
