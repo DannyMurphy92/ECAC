@@ -1,8 +1,12 @@
 ﻿@using System.Collections.Specialized
 @using Website.Infrastructure;
 @using Website.Extensions;
+@using System.Configuration;
 @model Website.Models.SidebarMenuModel
-
+@{ 
+    var showArabic = Convert.ToBoolean(ConfigurationManager.AppSettings["ShowArabic"]);
+    var ShowServices = Convert.ToBoolean(ConfigurationManager.AppSettings["ShowServices"]);
+}
 
 <div class="sidebar-menu">
     <ul class="unstyled-list spaced-list">
@@ -52,11 +56,14 @@
             </li>
         }
 
-        @foreach (Service course in Enum.GetValues(typeof(Service)))
+        @if (ShowServices)
+        {
+            foreach (Service course in Enum.GetValues(typeof(Service)))
             {
-            <li data-serviceId="@((int) course)" class="action">
-                <a href="@Url.Action("Service", "Training", new {id = (int)course})">@EnumExtensions.GetDisplayName(course)</a>
+            <li data-serviceId="@((int)course)" class="action">
+                <a href="@Url.Action("Service", "Training", new { id = (int)course })">@EnumExtensions.GetDisplayName(course)</a>
             </li>
+            }
         }
         <li class="action">
             <a href="@Url.Action("About", "Home")">Meet the Team</a>
@@ -64,12 +71,14 @@
         <li class="action">
             <a href="@Url.Action("Contact", "Home")">Contact Us</a>
         </li>
-
+        @if (showArabic)
+        {
         <div class="rtl">
             <li class="action">
                 <a href="@Url.Action("Arabic", "Training")">تدريب التبريد والتكييف في الشرق الأوسط</a>
             </li>
         </div>
+        }
     </ul>
 </div>
 
