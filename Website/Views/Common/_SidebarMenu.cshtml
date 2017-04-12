@@ -5,7 +5,8 @@
 @model Website.Models.SidebarMenuModel
 @{ 
     var showArabic = Convert.ToBoolean(ConfigurationManager.AppSettings["ShowArabic"]);
-    var ShowServices = Convert.ToBoolean(ConfigurationManager.AppSettings["ShowServices"]);
+    var showCareerServices = Convert.ToBoolean(ConfigurationManager.AppSettings["ShowCareerServices"]);
+    var showMeetTheTeam = Convert.ToBoolean(ConfigurationManager.AppSettings["ShowMeetTheTeam"]);
 }
 
 <div class="sidebar-menu">
@@ -56,18 +57,24 @@
             </li>
         }
 
-        @if (ShowServices)
+       
+        @foreach (Service course in Enum.GetValues(typeof(Service)))
         {
-            foreach (Service course in Enum.GetValues(typeof(Service)))
+            if(!showCareerServices && course == Service.Career)
             {
+                continue;
+            }
             <li data-serviceId="@((int)course)" class="action">
                 <a href="@Url.Action("Service", "Training", new { id = (int)course })">@EnumExtensions.GetDisplayName(course)</a>
             </li>
-            }
+            
         }
-        <li class="action">
-            <a href="@Url.Action("About", "Home")">Meet the Team</a>
-        </li>
+        @if (showMeetTheTeam)
+        {
+            <li class="action">
+                <a href="@Url.Action("About", "Home")">Meet the Team</a>
+            </li>
+        }
         <li class="action">
             <a href="@Url.Action("Contact", "Home")">Contact Us</a>
         </li>

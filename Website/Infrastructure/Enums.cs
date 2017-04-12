@@ -60,7 +60,5 @@ namespace Website.Infrastructure
         Career = 2,
         //[Display(Name = "Translation Services")]
         //Technical = 3
-        //[Display(Name = "تدريب التبريد والتكييف في الشرق الأوسط")]
-        //Arabic = 4
     }
 }
