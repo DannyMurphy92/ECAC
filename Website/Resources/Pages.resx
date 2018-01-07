@@ -145,6 +145,9 @@
   <data name="FGAS_OVERVIEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Pages\FGAS_OVERVIEW.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="HEAT_PUMP_SERVICE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Pages\HEAT_PUMP_SERVICE.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="HVAC_ADVANCED" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Pages\HVAC_ADVANCED.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>

@@ -50,6 +50,8 @@ namespace Website.Infrastructure
     {
         [Display(Name = "Facilities HVAC and Cat. 4 F Gas Certification")]
         FacilityHVAC = 1,
+        [Display(Name = "Heat Pump Service")]
+        HeatPump = 2
     }
 
     public enum Service

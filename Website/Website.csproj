@@ -118,6 +118,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Resources\Pages\FACILITY_HVAC.html" />
+    <Content Include="Resources\Pages\HEAT_PUMP_SERVICE.html" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Common\_Footer.cshtml" />
     <Content Include="Views\Common\_Header.cshtml" />

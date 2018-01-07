@@ -210,6 +210,24 @@ namespace Website.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;h1&gt;Domestic Heat Pump Service, Maintenance and Diagnostics Training (One Day)&lt;/h1&gt;
+        ///
+        ///&lt;p&gt;
+        ///    The domestic heat pump market in Ireland is now established and growing. Inevitably there will be a requirement 
+        ///    for maintenance and service on existing heat pumps and therefore suppliers and contractors will require a new 
+        ///    set of skills to provide your clients with ongoing support on their Heat Pumps.  
+        ///&lt;/p&gt;
+        ///
+        ///&lt;p&gt;
+        ///    This course will concentrate on the skills and knowledge required to ensure that t [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string HEAT_PUMP_SERVICE {
+            get {
+                return ResourceManager.GetString("HEAT_PUMP_SERVICE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;h1&gt;Advanced H.V.A.C. and Process Cooling Systems (3 Days)&lt;/h1&gt;
         ///
         ///&lt;p&gt;

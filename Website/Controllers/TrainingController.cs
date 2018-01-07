@@ -132,7 +132,12 @@ namespace Website.Controllers
                         {
                                 model.Content = Resources.Pages.FACILITY_HVAC;
                                 break;
-                        } 
+                        }
+                        case (int)CustomCourse.HeatPump:
+                        {
+                            model.Content = Resources.Pages.HEAT_PUMP_SERVICE;
+                            break;
+                        }
                     }
                     break;
                 }
